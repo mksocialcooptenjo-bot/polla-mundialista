@@ -2,10 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { collection, doc, setDoc, getDocs, updateDoc } from 'firebase/firestore';
 
-// CONFIGURACIÓN DE FOOTBALL-DATA.ORG
-// ⚠️ REEMPLAZA ESTO CON EL TOKEN QUE TE LLEGÓ POR CORREO
-const FOOTBALL_DATA_TOKEN = "e412c9ef5eb6471fa91d397cab3ba3df";
-
 function AdminPanel() {
   const [subPestaña, setSubPestaña] = useState('usuarios'); // 'usuarios' o 'partidos'
   const [cargando, setCargando] = useState(false);
@@ -63,7 +59,7 @@ function AdminPanel() {
   const handleCambiarRol = async (id, nuevoRol) => {
     try {
       await updateDoc(doc(db, "usuarios", id), { rol: nuevoRol });
-      alert("Permisos actualizados con éxito.");
+      alert("Permisos updated.");
       cargarUsuarios();
     } catch (e) {
       console.error(e);
@@ -133,18 +129,34 @@ function AdminPanel() {
   };
 
   // =======================================================
-  // LÓGICA: SINCRONIZACIÓN AUTOMÁTICA CON FOOTBALL-DATA.ORG
+  // LÓGICA: SINCRONIZACIÓN AUTOMÁTICA CON NETLIFY PROXY
   // =======================================================
   const actualizarResultadosConAPI = async () => {
-    if (!FOOTBALL_DATA_TOKEN || FOOTBALL_DATA_TOKEN.includes("TU_FOOTBALL_DATA")) {
-      alert("Por favor, introduce tu token de football-data.org en la línea 7.");
-      return;
-    }
-
     try {
       setCargando(true);
 
-      // 1. Obtener fecha de hoy para buscar la jornada local en Firebase
+      // 1. Obtener la fecha de hoy en formato YYYY-MM-DD
+      const hoyISO = new Date().toISOString().split('T')[0];
+      
+      // 2. Apuntar a la Serverless Function local o de producción en Netlify
+      const urlEndpoint = `/.netlify/functions/obtener-partidos?date=${hoyISO}`;
+      
+      const apiRespuesta = await fetch(urlEndpoint);
+
+      if (!apiRespuesta.ok) {
+        throw new Error(`Error en el servidor proxy: ${apiRespuesta.status}`);
+      }
+
+      const datosAPI = await apiRespuesta.json();
+      const partidosDelDiaAPI = datosAPI.matches || [];
+
+      if (partidosDelDiaAPI.length === 0) {
+        alert("La API no reporta partidos programados para la fecha de hoy.");
+        setCargando(false);
+        return;
+      }
+
+      // 3. Obtener el documento correspondiente a la fecha de hoy en Firestore
       const opcionesFecha = { weekday: 'long', day: 'numeric', month: 'long' };
       const hoyTexto = new Date().toLocaleDateString('es-ES', opcionesFecha);
 
@@ -159,41 +171,23 @@ function AdminPanel() {
       });
 
       if (!documentoFechaHoy || !documentoFechaHoy.partidos) {
-        alert(`No hay partidos configurados en Firebase para hoy (${hoyTexto}).`);
+        alert(`No se encontraron partidos configurados en Firebase para hoy (${hoyTexto}).`);
         setCargando(false);
         return;
       }
 
-      // 2. Consultar la API de football-data.org para el Mundial (Competición: WC)
-      // Usamos el rango de fechas de hoy para no consumir cuotas innecesarias
-      const hoyISO = new Date().toISOString().split('T')[0]; 
-      const url = `https://api.football-data.org/v4/competitions/WC/matches?dateFrom=${hoyISO}&dateTo=${hoyISO}`;
-
-      const apiRespuesta = await fetch(url, {
-        method: "GET",
-        headers: { "X-Auth-Token": FOOTBALL_DATA_TOKEN }
-      });
-
-      if (!apiRespuesta.ok) {
-        throw new Error(`Error de API: ${apiRespuesta.status} - Verifica tu token.`);
-      }
-
-      const datosAPI = await apiRespuesta.json();
-      const partidosDelDiaAPI = datosAPI.matches || [];
-
-      // 3. Mapear los resultados reales sobre nuestra estructura interna de Firebase
+      // 4. Mapear resultados reales de Football-Data sobre nuestra estructura de Firebase
       const partidosActualizados = documentoFechaHoy.partidos.map(partidoInterno => {
+        // Si el admin ya cerró el partido manualmente como finalizado, respetamos sus datos
         if (partidoInterno.estado === "finalizado") return partidoInterno;
 
-        // Buscamos coincidencia en la API por el nombre de los equipos
-        // Usamos include o nombres parciales en minúsculas por si varían traducciones (Ej: "Mexico" vs "México")
+        // Buscar coincidencia en la API por el nombre de los equipos (comparación flexible)
         const partidoEncontrado = partidosDelDiaAPI.find(m => 
-          (m.homeTeam.name.toLowerCase().includes(partidoInterno.equipo1.toLowerCase().substring(0, 4)) || 
-           partidoInterno.equipo1.toLowerCase().includes(m.homeTeam.name.toLowerCase().substring(0, 4)))
+          m.homeTeam.name.toLowerCase().includes(partidoInterno.equipo1.toLowerCase().substring(0, 4)) || 
+          partidoInterno.equipo1.toLowerCase().includes(m.homeTeam.name.toLowerCase().substring(0, 4))
         );
 
         if (partidoEncontrado) {
-          // Homologación de estados de la API a nuestro Firebase
           let nuevoEstado = "programado";
           if (partidoEncontrado.status === "IN_PLAY" || partidoEncontrado.status === "PAUSED") {
             nuevoEstado = "en_vivo";
@@ -209,21 +203,21 @@ function AdminPanel() {
           };
         }
 
-        return partidoInterno; // Si no hay datos en la API para este juego, lo dejamos igual
+        return partidoInterno;
       });
 
-      // 4. Impactar Firestore con el nuevo estado verificado
+      // 5. Guardar los datos procesados en la base de datos
       await setDoc(doc(db, "partidos_config", documentoFechaHoy.docId), {
         fecha: documentoFechaHoy.fecha,
         partidos: partidosActualizados
       });
 
-      alert("¡Sincronización con Football-Data realizada con éxito!");
+      alert("¡Marcadores actualizados e integrados con éxito vía Netlify Serverless!");
       cargarPartidos();
 
     } catch (e) {
-      console.error(e);
-      alert(`Error al sincronizar marcadores: ${e.message}`);
+      console.error("Error en la sincronización:", e);
+      alert(`No se pudo completar la sincronización: ${e.message}`);
     } finally {
       setCargando(false);
     }
@@ -414,11 +408,11 @@ function AdminPanel() {
       {subPestaña === 'partidos' && (
         <div className="space-y-6">
           
-          {/* BANNER DE AUTOMATIZACIÓN (FOOTBALL-DATA API + PUNTOS) */}
+          {/* BANNER DE AUTOMATIZACIÓN (NETLIFY PROXY FUNCTION + PUNTOS) */}
           <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 shadow-xl">
             <div>
-              <h4 className="text-sm font-black text-indigo-400 uppercase tracking-wider">⚡ Sincronización Oficial vía API</h4>
-              <p className="text-xs text-slate-400 mt-1">Trae los marcadores actualizados en vivo de football-data.org para la jornada de hoy.</p>
+              <h4 className="text-sm font-black text-indigo-400 uppercase tracking-wider">⚡ Sincronización Oficial vía Netlify Proxy</h4>
+              <p className="text-xs text-slate-400 mt-1">Trae los marcadores actualizados en vivo usando funciones Serverless para esquivar errores de CORS.</p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
