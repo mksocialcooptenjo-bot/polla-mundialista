@@ -3,7 +3,7 @@ import PartidosView from './components/PartidosView';
 import CampeonesView from './components/CampeonesView';
 import AdminPanel from './components/AdminPanel';
 import RankingsView from './components/RankingsView';
-import LoginView from './components/LoginView'; // <-- Importamos la nueva vista
+import LoginView from './components/LoginView'; 
 import HomeView from './components/HomeView';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   const handleLoginExitoso = (datosUsuario) => {
     setUsuarioLogueado(datosUsuario);
     localStorage.setItem('usuario_polla', JSON.stringify(datosUsuario));
-    // Por seguridad, si entra un jugador estándar, lo mandamos directo a partidos
+    // Por seguridad, si entra un jugador estándar, lo mandamos directo a home
     setPestañaActual('home');
   };
 
@@ -70,7 +70,7 @@ function App() {
             Inicio
           </span>
 
-            <span 
+          <span 
             onClick={() => setPestañaActual('partidos')}
             className={`cursor-pointer pb-1 transition ${pestañaActual === 'partidos' ? 'text-emerald-400 border-b-2 border-emerald-400' : 'hover:text-slate-200'}`}
           >
@@ -113,9 +113,10 @@ function App() {
       {/* CONTENEDOR CENTRAL CON RENDERIZADO CONDICIONAL DE VISTAS */}
       <main className="flex-1 p-4 md:p-8 max-w-7xl w-full mx-auto overflow-y-auto">
         
-        {pestañaActual === 'partidos' && <PartidosView />}
+        {/* CORRECCIÓN: Inyectamos el usuario autenticado a la vista de partidos */}
+        {pestañaActual === 'partidos' && <PartidosView usuarioGlobal={usuarioLogueado} />}
         
-        {pestañaActual === 'campeones' && <CampeonesView />}
+        {pestañaActual === 'campeones' && <CampeonesView usuarioGlobal={usuarioLogueado} />}
         
         {pestañaActual === 'rankings' && <RankingsView />}
 

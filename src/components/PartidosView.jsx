@@ -72,10 +72,10 @@ const codigosBanderas = {
   "Ghana": "GH",
   "Egipto": "EG",
   "Uzbekistán": "UZ",
-  "Por Clasificar": "DEFAULT" // Para partidos de fases finales vacíos
+  "Por Clasificar": "DEFAULT" 
 };
 
-function PartidosView() {
+function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por props (o puedes cambiarlo por tu contexto de Auth)
   const [fechasCalendario, setFechasCalendario] = useState([]);
   const [jugadoresCargados, setJugadoresCargados] = useState({});
   const [pronosticos, setPronosticos] = useState({});
@@ -116,11 +116,39 @@ function PartidosView() {
     }
   };
 
+  // Carga previa de los pronósticos ya existentes del usuario para que no aparezcan vacíos al refrescar
+  const cargarPronosticosGuardados = async () => {
+    const emailUsuario = usuarioGlobal?.email?.toLowerCase().trim();
+    if (!emailUsuario) return;
+
+    try {
+      const querySnapshot = await getDocs(collection(db, "usuarios", emailUsuario, "pronosticos"));
+      const pronoCargados = {};
+      querySnapshot.forEach((doc) => {
+        pronoCargados[doc.id] = doc.data();
+        
+        // Carga automática de listas de jugadores si el pronóstico cargado tiene goles asignados
+        if (doc.data().goles1 > 0) {
+          const partidoInfo = doc.id.split("_vs_");
+          if(partidoInfo[0]) cargarJugadoresDeSeleccion(partidoInfo[0]);
+        }
+      });
+      setPronosticos(prev => ({ ...prev, ...pronoCargados }));
+    } catch (error) {
+      console.error("Error al cargar pronósticos de usuario:", error);
+    }
+  };
+
   useEffect(() => {
     cargarPartidosDesdeFirebase();
   }, []);
 
-  // ESTA FUNCIÓN AHORA LEE TODO TU ARCHIVO PARTIDOS.JSON AUTOMÁTICAMENTE
+  useEffect(() => {
+    if (fechasCalendario.length > 0 && usuarioGlobal) {
+      cargarPronosticosGuardados();
+    }
+  }, [fechasCalendario, usuarioGlobal]);
+
   const sincronizarConFirebase = async () => {
     if (!datosPartidosJSON || !datosPartidosJSON.fase_grupos) {
       alert("No se pudo leer la estructura del archivo partidos.json");
@@ -152,7 +180,7 @@ function PartidosView() {
         contadorFecha++;
       }
 
-      alert(`¡Éxito! Se han importado correctamente las ${contadorFecha} fechas de tu partidos.json hacia Firebase.`);
+      alert(`¡Éxito! Se han importado correctamente las ${contadorFecha} fechas hacia Firebase.`);
       cargarPartidosDesdeFirebase();
     } catch (error) {
       console.error("Error al sincronizar: ", error);
@@ -177,7 +205,7 @@ function PartidosView() {
   };
 
   const handleGolesChange = (partidoId, equipo, valor, paisLocal, paisVisitante) => {
-    const numGoles = parseInt(valor) || 0;
+    const numGoles = parseInt(valor, 10) || 0;
     
     if (numGoles > 0) {
       cargarJugadoresDeSeleccion(equipo === 'equipo1' ? paisLocal : paisVisitante);
@@ -185,7 +213,7 @@ function PartidosView() {
 
     setPronosticos(prev => {
       const partidoActual = prev[partidoId] || { goles1: 0, goles2: 0, anotadores1: [], anotadores2: [] };
-      let nuevosAnotadores = equipo === 'equipo1' ? [...partidoActual.anotadores1] : [...partidoActual.anotadores2];
+      let nuevosAnotadores = equipo === 'equipo1' ? [...(partidoActual.anotadores1 || [])] : [...(partidoActual.anotadores2 || [])];
       
       if (nuevosAnotadores.length < numGoles) {
         while (nuevosAnotadores.length < numGoles) nuevosAnotadores.push("");
@@ -219,6 +247,49 @@ function PartidosView() {
     });
   };
 
+  // ==========================================
+  // LÓGICA DE GUARDADO FIRESTORE CORREGIDA
+  // ==========================================
+  const manejarGuardarVoto = async (partidoId, pronoActual) => {
+    console.log("Evento Guardar activado para:", partidoId, pronoActual);
+    
+    const emailUsuario = usuarioGlobal?.email?.toLowerCase().trim();
+    if (!emailUsuario) {
+      alert("Debes iniciar sesión para registrar tus pronósticos.");
+      return;
+    }
+
+    // Validar si puso goles pero dejó campos de anotadores en blanco
+    const faltanAnotadores1 = pronoActual.anotadores1?.some(j => j === "");
+    const faltanAnotadores2 = pronoActual.anotadores2?.some(j => j === "");
+
+    if (faltanAnotadores1 || faltanAnotadores2) {
+      alert("Por favor, selecciona qué jugador anotará cada gol antes de guardar.");
+      return;
+    }
+
+    try {
+      setCargando(true);
+      const documentoVotoRef = doc(db, "usuarios", emailUsuario, "pronosticos", partidoId);
+      
+      const estructuraVoto = {
+        goles1: parseInt(pronoActual.goles1, 10) || 0,
+        goles2: parseInt(pronoActual.goles2, 10) || 0,
+        anotadores1: pronoActual.anotadores1 || [],
+        anotadores2: pronoActual.anotadores2 || [],
+        fechaVoto: new Date().toISOString()
+      };
+
+      await setDoc(documentoVotoRef, estructuraVoto, { merge: true });
+      alert("⚽ ¡Pronóstico registrado con éxito!");
+    } catch (e) {
+      console.error("Error crítico de escritura en subcolección:", e);
+      alert("Error de conexión al guardar el voto.");
+    } finally {
+      setCargando(false);
+    }
+  };
+
   return (
     <div className="space-y-10">
       
@@ -242,7 +313,7 @@ function PartidosView() {
 
       {cargando ? (
         <div className="text-center py-12 text-slate-400 font-medium animate-pulse">
-          ⚽ Cargando fixture en orden cronológico...
+          ⚽ Procesando y sincronizando con base de datos...
         </div>
       ) : fechasCalendario.length === 0 ? (
         <div className="bg-slate-900/50 border border-slate-800 p-8 rounded-2xl text-center text-slate-400">
@@ -302,12 +373,12 @@ function PartidosView() {
                     </div>
 
                     {/* SELECTS GOLEADORES */}
-                    {(prono.goles1 > 0 || prono.goles2 > 0) && (
+                    {((prono.goles1 > 0 && prono.anotadores1) || (prono.goles2 > 0 && prono.anotadores2)) && (
                       <div className="mt-5 pt-4 border-t border-slate-800/80 bg-slate-950/60 p-3 rounded-xl space-y-3">
                         <p className="text-[10px] font-black text-emerald-400 uppercase tracking-widest">⚽ Autores de los Goles:</p>
                         <div className="grid grid-cols-2 gap-3">
                           <div className="space-y-2">
-                            {prono.anotadores1.map((j, i) => (
+                            {(prono.anotadores1 || []).map((j, i) => (
                               <select
                                 key={i} value={j}
                                 onChange={(e) => handleAnotadorChange(partido.id, 'equipo1', i, e.target.value)}
@@ -321,7 +392,7 @@ function PartidosView() {
                             ))}
                           </div>
                           <div className="space-y-2">
-                            {prono.anotadores2.map((j, i) => (
+                            {(prono.anotadores2 || []).map((j, i) => (
                               <select
                                 key={i} value={j}
                                 onChange={(e) => handleAnotadorChange(partido.id, 'equipo2', i, e.target.value)}
@@ -339,7 +410,11 @@ function PartidosView() {
                     )}
 
                     <div className="mt-4 pt-2 flex justify-end">
-                      <button className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-black px-4 py-2 rounded-xl transition shadow-md">
+                      <button 
+                        type="button"
+                        onClick={() => manejarGuardarVoto(partido.id, prono)}
+                        className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-black px-4 py-2 rounded-xl transition shadow-md active:scale-95"
+                      >
                         Guardar Voto
                       </button>
                     </div>
