@@ -1,0 +1,141 @@
+{
+  "grupo": "J",
+  "equipos": [
+    {
+      "pais": "Argentina",
+      "jugadores": [
+        { "nombre": "Emiliano Martínez", "posicion": "Portero" },
+        { "nombre": "Gerónimo Rulli", "posicion": "Portero" },
+        { "nombre": "Juan Musso", "posicion": "Portero" },
+
+        { "nombre": "Gonzalo Montiel", "posicion": "Defensor" },
+        { "nombre": "Nahuel Molina", "posicion": "Defensor" },
+        { "nombre": "Lisandro Martínez", "posicion": "Defensor" },
+        { "nombre": "Nicolás Otamendi", "posicion": "Defensor" },
+        { "nombre": "Leonardo Balerdi", "posicion": "Defensor" },
+        { "nombre": "Cristian Romero", "posicion": "Defensor" },
+        { "nombre": "Facundo Medina", "posicion": "Defensor" },
+        { "nombre": "Nicolás Tagliafico", "posicion": "Defensor" },
+
+        { "nombre": "Leandro Paredes", "posicion": "Centrocampista" },
+        { "nombre": "Rodrigo De Paul", "posicion": "Centrocampista" },
+        { "nombre": "Exequiel Palacios", "posicion": "Centrocampista" },
+        { "nombre": "Enzo Fernández", "posicion": "Centrocampista" },
+        { "nombre": "Alexis Mac Allister", "posicion": "Centrocampista" },
+        { "nombre": "Giovani Lo Celso", "posicion": "Centrocampista" },
+        { "nombre": "Valentín Barco", "posicion": "Centrocampista" },
+
+        { "nombre": "Lionel Messi", "posicion": "Delantero" },
+        { "nombre": "Nico Paz", "posicion": "Delantero" },
+        { "nombre": "Thiago Almada", "posicion": "Delantero" },
+        { "nombre": "Nicolás González", "posicion": "Delantero" },
+        { "nombre": "Giuliano Simeone", "posicion": "Delantero" },
+        { "nombre": "Lautaro Martínez", "posicion": "Delantero" },
+        { "nombre": "José Manuel López", "posicion": "Delantero" },
+        { "nombre": "Julián Álvarez", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Argelia",
+      "jugadores": [
+        { "nombre": "Oussama Benbot", "posicion": "Portero" },
+        { "nombre": "Melvin Masstil", "posicion": "Portero" },
+        { "nombre": "Luca Zidane", "posicion": "Portero" },
+
+        { "nombre": "Achraf Abada", "posicion": "Defensor" },
+        { "nombre": "Rayan Ait Nouri", "posicion": "Defensor" },
+        { "nombre": "Zinedine Belaid", "posicion": "Defensor" },
+        { "nombre": "Rafik Belghali", "posicion": "Defensor" },
+        { "nombre": "Ramy Bensebaini", "posicion": "Defensor" },
+        { "nombre": "Samir Chergui", "posicion": "Defensor" },
+        { "nombre": "Jaouen Hadjam", "posicion": "Defensor" },
+        { "nombre": "Aissa Mandi", "posicion": "Defensor" },
+        { "nombre": "Mohamed Amine Tougai", "posicion": "Defensor" },
+
+        { "nombre": "Houssem Aouar", "posicion": "Centrocampista" },
+        { "nombre": "Nabil Bentaleb", "posicion": "Centrocampista" },
+        { "nombre": "Hicham Boudaoui", "posicion": "Centrocampista" },
+        { "nombre": "Fares Chaibi", "posicion": "Centrocampista" },
+        { "nombre": "Ibrahim Maza", "posicion": "Centrocampista" },
+        { "nombre": "Yassine Titraoui", "posicion": "Centrocampista" },
+        { "nombre": "Ramiz Zerrouki", "posicion": "Centrocampista" },
+
+        { "nombre": "Mohamed Amine Amoura", "posicion": "Delantero" },
+        { "nombre": "Nadir Benbouali", "posicion": "Delantero" },
+        { "nombre": "Adil Boulbina", "posicion": "Delantero" },
+        { "nombre": "Fares Ghedjemis", "posicion": "Delantero" },
+        { "nombre": "Amine Gouiri", "posicion": "Delantero" },
+        { "nombre": "Riyad Mahrez", "posicion": "Delantero" },
+        { "nombre": "Anis Hadj Moussa", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Austria",
+      "jugadores": [
+        { "nombre": "Alexander Schlager", "posicion": "Portero" },
+        { "nombre": "Florian Wiegele", "posicion": "Portero" },
+        { "nombre": "Patrick Pentz", "posicion": "Portero" },
+
+        { "nombre": "David Affengruber", "posicion": "Defensor" },
+        { "nombre": "Kevin Danso", "posicion": "Defensor" },
+        { "nombre": "Stefan Posch", "posicion": "Defensor" },
+        { "nombre": "David Alaba", "posicion": "Defensor" },
+        { "nombre": "Philipp Lienhart", "posicion": "Defensor" },
+        { "nombre": "Philipp Mwene", "posicion": "Defensor" },
+        { "nombre": "Alexander Prass", "posicion": "Defensor" },
+        { "nombre": "Marco Friedl", "posicion": "Defensor" },
+        { "nombre": "Michael Svoboda", "posicion": "Defensor" },
+
+        { "nombre": "Xaver Schlager", "posicion": "Centrocampista" },
+        { "nombre": "Nicolas Seiwald", "posicion": "Centrocampista" },
+        { "nombre": "Marcel Sabitzer", "posicion": "Centrocampista" },
+        { "nombre": "Florian Grillitsch", "posicion": "Centrocampista" },
+        { "nombre": "Carney Chukwuemeka", "posicion": "Centrocampista" },
+        { "nombre": "Romano Schmid", "posicion": "Centrocampista" },
+        { "nombre": "Christoph Baumgartner", "posicion": "Centrocampista" },
+        { "nombre": "Konrad Laimer", "posicion": "Centrocampista" },
+        { "nombre": "Patrick Wimmer", "posicion": "Centrocampista" },
+        { "nombre": "Paul Wanner", "posicion": "Centrocampista" },
+        { "nombre": "Alessandro Schopf", "posicion": "Centrocampista" },
+
+        { "nombre": "Marko Arnautovic", "posicion": "Delantero" },
+        { "nombre": "Michael Gregoritsch", "posicion": "Delantero" },
+        { "nombre": "Sasa Kalajdzic", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Jordania",
+      "jugadores": [
+        { "nombre": "Yazid Abulaila", "posicion": "Portero" },
+        { "nombre": "Abdallah Al-Fakhouri", "posicion": "Portero" },
+        { "nombre": "Nour Bani Attiah", "posicion": "Portero" },
+
+        { "nombre": "Ihsan Haddad", "posicion": "Defensor" },
+        { "nombre": "Saed Al-Rosan", "posicion": "Defensor" },
+        { "nombre": "Mohammad Abualnadi", "posicion": "Defensor" },
+        { "nombre": "Husam Abu Dahab", "posicion": "Defensor" },
+        { "nombre": "Mohammed Abu Hashish", "posicion": "Defensor" },
+        { "nombre": "Yazan Al-Arab", "posicion": "Defensor" },
+        { "nombre": "Anas Badawi", "posicion": "Defensor" },
+        { "nombre": "Abdallah Nasib", "posicion": "Defensor" },
+        { "nombre": "Saleem Obaid", "posicion": "Defensor" },
+
+        { "nombre": "Mohammed Al-Dawoud", "posicion": "Centrocampista" },
+        { "nombre": "Nizar Al-Rashdan", "posicion": "Centrocampista" },
+        { "nombre": "Noor Al-Rawabdeh", "posicion": "Centrocampista" },
+        { "nombre": "Rajaei Ayed", "posicion": "Centrocampista" },
+        { "nombre": "Amer Jamous", "posicion": "Centrocampista" },
+        { "nombre": "Ibrahim Sadeh", "posicion": "Centrocampista" },
+        { "nombre": "Mohannad Abu Taha", "posicion": "Centrocampista" },
+
+        { "nombre": "Mohammed Abu Zrayq", "posicion": "Delantero" },
+        { "nombre": "Mousa Al-Tamari", "posicion": "Delantero" },
+        { "nombre": "Ali Azaizeh", "posicion": "Delantero" },
+        { "nombre": "Odeh Al-Fakhouri", "posicion": "Delantero" },
+        { "nombre": "Ali Olwan", "posicion": "Delantero" },
+        { "nombre": "Ibrahim Sabra", "posicion": "Delantero" },
+        { "nombre": "Mahmoud Al-Mardi", "posicion": "Delantero" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pais": "México",
+  "jugadores": [
+    {"nombre": "Carlos Acevedo", "posicion": "Portero"},
+    {"nombre": "Guillermo Ochoa", "posicion": "Portero"},
+    {"nombre": "Raúl Rangel", "posicion": "Portero"},
+    {"nombre": "Jesús Gallardo", "posicion": "Defensor"},
+    {"nombre": "Israel Reyes", "posicion": "Defensor"},
+    {"nombre": "César Montes", "posicion": "Defensor"},
+    {"nombre": "Jorge Sánchez", "posicion": "Defensor"},
+    {"nombre": "Johan Vásquez", "posicion": "Defensor"},
+    {"nombre": "Mateo Chávez", "posicion": "Defensor"},
+    {"nombre": "Gilberto Mora", "posicion": "Centrocampista"},
+    {"nombre": "Edson Álvarez", "posicion": "Centrocampista"},
+    {"nombre": "Orbelín Pineda", "posicion": "Centrocampista"},
+    {"nombre": "Luis Romo", "posicion": "Centrocampista"},
+    {"nombre": "Brian Gutiérrez", "posicion": "Centrocampista"},
+    {"nombre": "Obed Vargas", "posicion": "Centrocampista"},
+    {"nombre": "César Huerta", "posicion": "Centrocampista"},
+    {"nombre": "Luis Chávez", "posicion": "Centrocampista"},
+    {"nombre": "Erik Lira", "posicion": "Centrocampista"},
+    {"nombre": "Álvaro Fidalgo", "posicion": "Centrocampista"},
+    {"nombre": "Roberto Alvarado", "posicion": "Centrocampista"},
+    {"nombre": "Armando González", "posicion": "Delantero"},
+    {"nombre": "Raúl Jiménez", "posicion": "Delantero"},
+    {"nombre": "Julián Quiñones", "posicion": "Delantero"},
+    {"nombre": "Santiago Giménez", "posicion": "Delantero"},
+    {"nombre": "Guillermo Martínez", "posicion": "Delantero"},
+    {"nombre": "Alexis Vega", "posicion": "Delantero"}
+  ]
+}

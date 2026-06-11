@@ -1,0 +1,31 @@
+{
+  "pais": "Estados Unidos",
+  "jugadores": [
+    {"nombre": "Chris Brady", "posicion": "Portero"},
+    {"nombre": "Matt Freese", "posicion": "Portero"},
+    {"nombre": "Matt Turner", "posicion": "Portero"},
+    {"nombre": "Max Arfsten", "posicion": "Defensor"},
+    {"nombre": "Sergiño Dest", "posicion": "Defensor"},
+    {"nombre": "Alex Freeman", "posicion": "Defensor"},
+    {"nombre": "Mark McKenzie", "posicion": "Defensor"},
+    {"nombre": "Tim Ream", "posicion": "Defensor"},
+    {"nombre": "Chris Richards", "posicion": "Defensor"},
+    {"nombre": "Antonee Robinson", "posicion": "Defensor"},
+    {"nombre": "Miles Robinson", "posicion": "Defensor"},
+    {"nombre": "Joe Scally", "posicion": "Defensor"},
+    {"nombre": "Auston Trusty", "posicion": "Defensor"},
+    {"nombre": "Tyler Adams", "posicion": "Centrocampista"},
+    {"nombre": "Sebastian Berhalter", "posicion": "Centrocampista"},
+    {"nombre": "Weston McKennie", "posicion": "Centrocampista"},
+    {"nombre": "Cristian Roldan", "posicion": "Centrocampista"},
+    {"nombre": "Brenden Aaronson", "posicion": "Centrocampista"},
+    {"nombre": "Malik Tillman", "posicion": "Centrocampista"},
+    {"nombre": "Tim Weah", "posicion": "Centrocampista"},
+    {"nombre": "Alejandro Zendejas", "posicion": "Centrocampista"},
+    {"nombre": "Christian Pulisic", "posicion": "Delantero"},
+    {"nombre": "Gio Reyna", "posicion": "Delantero"},
+    {"nombre": "Folarin Balogun", "posicion": "Delantero"},
+    {"nombre": "Ricardo Pepi", "posicion": "Delantero"},
+    {"nombre": "Haji Wright", "posicion": "Delantero"}
+  ]
+}

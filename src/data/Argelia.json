@@ -1,0 +1,31 @@
+{
+  "pais": "Argelia",
+  "jugadores": [
+    {"nombre": "Oussama Benbot", "posicion": "Portero"},
+    {"nombre": "Melvin Masstil", "posicion": "Portero"},
+    {"nombre": "Luca Zidane", "posicion": "Portero"},
+    {"nombre": "Achraf Abada", "posicion": "Defensor"},
+    {"nombre": "Rayan Ait Nouri", "posicion": "Defensor"},
+    {"nombre": "Zinedine Belaid", "posicion": "Defensor"},
+    {"nombre": "Rafik Belghali", "posicion": "Defensor"},
+    {"nombre": "Ramy Bensebaini", "posicion": "Defensor"},
+    {"nombre": "Samir Chergui", "posicion": "Defensor"},
+    {"nombre": "Jaouen Hadjam", "posicion": "Defensor"},
+    {"nombre": "Aissa Mandi", "posicion": "Defensor"},
+    {"nombre": "Mohamed Amine Tougai", "posicion": "Defensor"},
+    {"nombre": "Houssem Aouar", "posicion": "Centrocampista"},
+    {"nombre": "Nabil Bentaleb", "posicion": "Centrocampista"},
+    {"nombre": "Hicham Boudaoui", "posicion": "Centrocampista"},
+    {"nombre": "Fares Chaibi", "posicion": "Centrocampista"},
+    {"nombre": "Ibrahim Maza", "posicion": "Centrocampista"},
+    {"nombre": "Yassine Titraoui", "posicion": "Centrocampista"},
+    {"nombre": "Ramiz Zerrouki", "posicion": "Centrocampista"},
+    {"nombre": "Mohamed Amine Amoura", "posicion": "Delantero"},
+    {"nombre": "Nadir Benbouali", "posicion": "Delantero"},
+    {"nombre": "Adil Boulbina", "posicion": "Delantero"},
+    {"nombre": "Fares Ghedjemis", "posicion": "Delantero"},
+    {"nombre": "Amine Gouiri", "posicion": "Delantero"},
+    {"nombre": "Riyad Mahrez", "posicion": "Delantero"},
+    {"nombre": "Anis Hadj Moussa", "posicion": "Delantero"}
+  ]
+}

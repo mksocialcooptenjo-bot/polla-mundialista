@@ -1,0 +1,31 @@
+{
+  "pais": "Inglaterra",
+  "jugadores": [
+    {"nombre": "Jordan Pickford", "posicion": "Portero"},
+    {"nombre": "Dean Henderson", "posicion": "Portero"},
+    {"nombre": "James Trafford", "posicion": "Portero"},
+    {"nombre": "Reece James", "posicion": "Defensor"},
+    {"nombre": "Ezri Konsa", "posicion": "Defensor"},
+    {"nombre": "Jarell Quansah", "posicion": "Defensor"},
+    {"nombre": "John Stones", "posicion": "Defensor"},
+    {"nombre": "Marc Guéhi", "posicion": "Defensor"},
+    {"nombre": "Dan Burn", "posicion": "Defensor"},
+    {"nombre": "Nico O'Reilly", "posicion": "Defensor"},
+    {"nombre": "Djed Spence", "posicion": "Defensor"},
+    {"nombre": "Tino Livramento", "posicion": "Defensor"},
+    {"nombre": "Declan Rice", "posicion": "Centrocampista"},
+    {"nombre": "Elliot Anderson", "posicion": "Centrocampista"},
+    {"nombre": "Kobbie Mainoo", "posicion": "Centrocampista"},
+    {"nombre": "Jordan Henderson", "posicion": "Centrocampista"},
+    {"nombre": "Morgan Rogers", "posicion": "Centrocampista"},
+    {"nombre": "Jude Bellingham", "posicion": "Centrocampista"},
+    {"nombre": "Eberechi Eze", "posicion": "Centrocampista"},
+    {"nombre": "Harry Kane", "posicion": "Delantero"},
+    {"nombre": "Ivan Toney", "posicion": "Delantero"},
+    {"nombre": "Ollie Watkins", "posicion": "Delantero"},
+    {"nombre": "Bukayo Saka", "posicion": "Delantero"},
+    {"nombre": "Marcus Rashford", "posicion": "Delantero"},
+    {"nombre": "Anthony Gordon", "posicion": "Delantero"},
+    {"nombre": "Noni Madueke", "posicion": "Delantero"}
+  ]
+}

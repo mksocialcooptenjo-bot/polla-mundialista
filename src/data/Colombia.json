@@ -1,0 +1,31 @@
+{
+  "pais": "Colombia",
+  "jugadores": [
+    {"nombre": "David Ospina", "posicion": "Portero"},
+    {"nombre": "Álvaro Montero", "posicion": "Portero"},
+    {"nombre": "Camilo Vargas", "posicion": "Portero"},
+    {"nombre": "Daniel Muñoz", "posicion": "Defensor"},
+    {"nombre": "Jhon Lucumí", "posicion": "Defensor"},
+    {"nombre": "Santiago Arias", "posicion": "Defensor"},
+    {"nombre": "Davinson Sánchez", "posicion": "Defensor"},
+    {"nombre": "Johan Mojica", "posicion": "Defensor"},
+    {"nombre": "Yerry Mina", "posicion": "Defensor"},
+    {"nombre": "Willer Ditta", "posicion": "Defensor"},
+    {"nombre": "Deiver Machado", "posicion": "Defensor"},
+    {"nombre": "Jorge Carrascal", "posicion": "Centrocampista"},
+    {"nombre": "Kevin Castaño", "posicion": "Centrocampista"},
+    {"nombre": "Gustavo Puerta", "posicion": "Centrocampista"},
+    {"nombre": "Juan Fernando Quintero", "posicion": "Centrocampista"},
+    {"nombre": "Juan Portilla", "posicion": "Centrocampista"},
+    {"nombre": "Jefferson Lerma", "posicion": "Centrocampista"},
+    {"nombre": "Richard Ríos", "posicion": "Centrocampista"},
+    {"nombre": "Jhon Arias", "posicion": "Centrocampista"},
+    {"nombre": "James Rodríguez", "posicion": "Centrocampista"},
+    {"nombre": "Jaminton Campaz", "posicion": "Centrocampista"},
+    {"nombre": "Luis Díaz", "posicion": "Delantero"},
+    {"nombre": "Jhon Córdoba", "posicion": "Delantero"},
+    {"nombre": "Luis Suárez", "posicion": "Delantero"},
+    {"nombre": "Andrés Gómez", "posicion": "Delantero"},
+    {"nombre": "Cucho Hernández", "posicion": "Delantero"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pais": "Japón",
+  "jugadores": [
+    {"nombre": "Zion Suzuki", "posicion": "Portero"},
+    {"nombre": "Keisuke Osako", "posicion": "Portero"},
+    {"nombre": "Tomoki Hayakawa", "posicion": "Portero"},
+    {"nombre": "Yūto Nagatomo", "posicion": "Defensor"},
+    {"nombre": "Shogo Taniguchi", "posicion": "Defensor"},
+    {"nombre": "Ko Itakura", "posicion": "Defensor"},
+    {"nombre": "Tsuyoshi Watanabe", "posicion": "Defensor"},
+    {"nombre": "Takehiro Tomiyasu", "posicion": "Defensor"},
+    {"nombre": "Hiroki Ito", "posicion": "Defensor"},
+    {"nombre": "Ayumu Seko", "posicion": "Defensor"},
+    {"nombre": "Yukinari Sugawara", "posicion": "Defensor"},
+    {"nombre": "Junnosuke Suzuki", "posicion": "Centrocampista"},
+    {"nombre": "Wataru Endo", "posicion": "Centrocampista"},
+    {"nombre": "Junya Ito", "posicion": "Centrocampista"},
+    {"nombre": "Daichi Kamada", "posicion": "Centrocampista"},
+    {"nombre": "Ritsu Doan", "posicion": "Centrocampista"},
+    {"nombre": "Ao Tanaka", "posicion": "Centrocampista"},
+    {"nombre": "Keito Nakamura", "posicion": "Centrocampista"},
+    {"nombre": "Kaishu Sano", "posicion": "Centrocampista"},
+    {"nombre": "Takefusa Kubo", "posicion": "Centrocampista"},
+    {"nombre": "Yuito Suzuki", "posicion": "Centrocampista"},
+    {"nombre": "Koki Ogawa", "posicion": "Delantero"},
+    {"nombre": "Daizen Maeda", "posicion": "Delantero"},
+    {"nombre": "Ayase Ueda", "posicion": "Delantero"},
+    {"nombre": "Kento Shiogai", "posicion": "Delantero"},
+    {"nombre": "Keisuke Goto", "posicion": "Delantero"}
+  ]
+}

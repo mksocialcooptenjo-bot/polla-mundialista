@@ -1,0 +1,31 @@
+{
+  "pais": "Panamá",
+  "jugadores": [
+    {"nombre": "Orlando Mosquera", "posicion": "Portero"},
+    {"nombre": "Luis Mejía", "posicion": "Portero"},
+    {"nombre": "César Samudio", "posicion": "Portero"},
+    {"nombre": "César Blackman", "posicion": "Defensor"},
+    {"nombre": "Jorge Gutiérrez", "posicion": "Defensor"},
+    {"nombre": "Amir Murillo", "posicion": "Defensor"},
+    {"nombre": "Fidel Escobar", "posicion": "Defensor"},
+    {"nombre": "Andrés Andrade", "posicion": "Defensor"},
+    {"nombre": "Edgardo Fariña", "posicion": "Defensor"},
+    {"nombre": "José Córdoba", "posicion": "Defensor"},
+    {"nombre": "Éric Davis", "posicion": "Defensor"},
+    {"nombre": "Jiovany Ramos", "posicion": "Defensor"},
+    {"nombre": "Roderick Miller", "posicion": "Defensor"},
+    {"nombre": "Aníbal Godoy", "posicion": "Centrocampista"},
+    {"nombre": "Adalberto Carrasquilla", "posicion": "Centrocampista"},
+    {"nombre": "Carlos Harvey", "posicion": "Centrocampista"},
+    {"nombre": "Cristian Martínez", "posicion": "Centrocampista"},
+    {"nombre": "José Luis Rodríguez", "posicion": "Centrocampista"},
+    {"nombre": "César Yanis", "posicion": "Centrocampista"},
+    {"nombre": "Yoel Bárcenas", "posicion": "Centrocampista"},
+    {"nombre": "Alberto Quintero", "posicion": "Centrocampista"},
+    {"nombre": "Azarias Londoño", "posicion": "Centrocampista"},
+    {"nombre": "Ismael Díaz", "posicion": "Delantero"},
+    {"nombre": "Cecilio Waterman", "posicion": "Delantero"},
+    {"nombre": "José Fajardo", "posicion": "Delantero"},
+    {"nombre": "Tomás Rodríguez", "posicion": "Delantero"}
+  ]
+}

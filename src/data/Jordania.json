@@ -1,0 +1,31 @@
+{
+  "pais": "Jordania",
+  "jugadores": [
+    {"nombre": "Yazid Abulaila", "posicion": "Portero"},
+    {"nombre": "Abdallah Al-Fakhouri", "posicion": "Portero"},
+    {"nombre": "Nour Bani Attiah", "posicion": "Portero"},
+    {"nombre": "Ihsan Haddad", "posicion": "Defensor"},
+    {"nombre": "Saed Al-Rosan", "posicion": "Defensor"},
+    {"nombre": "Mohammad Abualnadi", "posicion": "Defensor"},
+    {"nombre": "Husam Abu Dahab", "posicion": "Defensor"},
+    {"nombre": "Mohammed Abu Hashish", "posicion": "Defensor"},
+    {"nombre": "Yazan Al-Arab", "posicion": "Defensor"},
+    {"nombre": "Anas Badawi", "posicion": "Defensor"},
+    {"nombre": "Abdallah Nasib", "posicion": "Defensor"},
+    {"nombre": "Saleem Obaid", "posicion": "Defensor"},
+    {"nombre": "Mohammed Al-Dawoud", "posicion": "Centrocampista"},
+    {"nombre": "Nizar Al-Rashdan", "posicion": "Centrocampista"},
+    {"nombre": "Noor Al-Rawabdeh", "posicion": "Centrocampista"},
+    {"nombre": "Rajaei Ayed", "posicion": "Centrocampista"},
+    {"nombre": "Amer Jamous", "posicion": "Centrocampista"},
+    {"nombre": "Ibrahim Sadeh", "posicion": "Centrocampista"},
+    {"nombre": "Mohannad Abu Taha", "posicion": "Centrocampista"},
+    {"nombre": "Mohammed Abu Zrayq", "posicion": "Delantero"},
+    {"nombre": "Mousa Al-Tamari", "posicion": "Delantero"},
+    {"nombre": "Ali Azaizeh", "posicion": "Delantero"},
+    {"nombre": "Odeh Al-Fakhouri", "posicion": "Delantero"},
+    {"nombre": "Ali Olwan", "posicion": "Delantero"},
+    {"nombre": "Ibrahim Sabra", "posicion": "Delantero"},
+    {"nombre": "Mahmoud Al-Mardi", "posicion": "Delantero"}
+  ]
+}

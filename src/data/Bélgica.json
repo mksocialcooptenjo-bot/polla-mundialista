@@ -1,0 +1,31 @@
+{
+  "pais": "Bélgica",
+  "jugadores": [
+    {"nombre": "Thibaut Courtois", "posicion": "Portero"},
+    {"nombre": "Senne Lammens", "posicion": "Portero"},
+    {"nombre": "Mike Penders", "posicion": "Portero"},
+    {"nombre": "Timothy Castagne", "posicion": "Defensor"},
+    {"nombre": "Zeno Debast", "posicion": "Defensor"},
+    {"nombre": "Maxim De Cuyper", "posicion": "Defensor"},
+    {"nombre": "Koni De Winter", "posicion": "Defensor"},
+    {"nombre": "Brandon Mechele", "posicion": "Defensor"},
+    {"nombre": "Thomas Meunier", "posicion": "Defensor"},
+    {"nombre": "Nathan Ngoy", "posicion": "Defensor"},
+    {"nombre": "Joaquin Seys", "posicion": "Defensor"},
+    {"nombre": "Arthur Theate", "posicion": "Defensor"},
+    {"nombre": "Kevin De Bruyne", "posicion": "Centrocampista"},
+    {"nombre": "Amadou Onana", "posicion": "Centrocampista"},
+    {"nombre": "Nicolas Raskin", "posicion": "Centrocampista"},
+    {"nombre": "Youri Tielemans", "posicion": "Centrocampista"},
+    {"nombre": "Hans Vanaken", "posicion": "Centrocampista"},
+    {"nombre": "Axel Witsel", "posicion": "Centrocampista"},
+    {"nombre": "Charles De Ketelaere", "posicion": "Delantero"},
+    {"nombre": "Jérémy Doku", "posicion": "Delantero"},
+    {"nombre": "Matías Fernández-Pardo", "posicion": "Delantero"},
+    {"nombre": "Romelu Lukaku", "posicion": "Delantero"},
+    {"nombre": "Dodi Lukebakio", "posicion": "Delantero"},
+    {"nombre": "Diego Moreira", "posicion": "Delantero"},
+    {"nombre": "Alexis Saelemaekers", "posicion": "Delantero"},
+    {"nombre": "Leandro Trossard", "posicion": "Delantero"}
+  ]
+}

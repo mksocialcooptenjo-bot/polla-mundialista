@@ -1,0 +1,31 @@
+{
+  "pais": "Corea del Sur",
+  "jugadores": [
+    {"nombre": "Jo Hyun-Woo", "posicion": "Portero"},
+    {"nombre": "Kim Seung-Gyu", "posicion": "Portero"},
+    {"nombre": "Song Bum-Keun", "posicion": "Portero"},
+    {"nombre": "Kim Min-Jae", "posicion": "Defensor"},
+    {"nombre": "Jo Yu-Min", "posicion": "Defensor"},
+    {"nombre": "Lee Han-Beom", "posicion": "Defensor"},
+    {"nombre": "Kim Tae-Hyun", "posicion": "Defensor"},
+    {"nombre": "Park Jin-Seop", "posicion": "Defensor"},
+    {"nombre": "Lee Ki-Hyeok", "posicion": "Defensor"},
+    {"nombre": "Lee Tae-Seok", "posicion": "Defensor"},
+    {"nombre": "Seol Young-Woo", "posicion": "Defensor"},
+    {"nombre": "Jens Castrop", "posicion": "Defensor"},
+    {"nombre": "Kim Moon-Hwan", "posicion": "Defensor"},
+    {"nombre": "Yang Hyun-Jun", "posicion": "Centrocampista"},
+    {"nombre": "Paik Seung-Ho", "posicion": "Centrocampista"},
+    {"nombre": "Hwang In-Beom", "posicion": "Centrocampista"},
+    {"nombre": "Kim Jin-Kyu", "posicion": "Centrocampista"},
+    {"nombre": "Bae Jun-Ho", "posicion": "Centrocampista"},
+    {"nombre": "Um Ji-Sung", "posicion": "Centrocampista"},
+    {"nombre": "Hwang Hee-Chan", "posicion": "Centrocampista"},
+    {"nombre": "Lee Dong-Gyeong", "posicion": "Centrocampista"},
+    {"nombre": "Lee Jae-Sung", "posicion": "Centrocampista"},
+    {"nombre": "Lee Kang-In", "posicion": "Centrocampista"},
+    {"nombre": "Oh Hyun-Kyu", "posicion": "Delantero"},
+    {"nombre": "Son Heung-Min", "posicion": "Delantero"},
+    {"nombre": "Cho Kyu-Sung", "posicion": "Delantero"}
+  ]
+}

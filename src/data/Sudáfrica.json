@@ -1,0 +1,31 @@
+{
+  "pais": "Sudáfrica",
+  "jugadores": [
+    {"nombre": "Ronwen Williams", "posicion": "Portero"},
+    {"nombre": "Ricardo Goss", "posicion": "Portero"},
+    {"nombre": "Sipho Chaine", "posicion": "Portero"},
+    {"nombre": "Khuliso Mudau", "posicion": "Defensor"},
+    {"nombre": "Nkosinathi Sibisi", "posicion": "Defensor"},
+    {"nombre": "Ime Okon", "posicion": "Defensor"},
+    {"nombre": "Khulumani Ndamane", "posicion": "Defensor"},
+    {"nombre": "Aubrey Modiba", "posicion": "Defensor"},
+    {"nombre": "Samukelo Kabini", "posicion": "Defensor"},
+    {"nombre": "Thabang Matuludi", "posicion": "Defensor"},
+    {"nombre": "Olwethu Makhanya", "posicion": "Defensor"},
+    {"nombre": "Kamgogelo Sebelebele", "posicion": "Defensor"},
+    {"nombre": "Bradley Cross", "posicion": "Defensor"},
+    {"nombre": "Mbekezeli Mbokazi", "posicion": "Defensor"},
+    {"nombre": "Teboho Mokoena", "posicion": "Centrocampista"},
+    {"nombre": "Thalente Mbatha", "posicion": "Centrocampista"},
+    {"nombre": "Yaya Sithole", "posicion": "Centrocampista"},
+    {"nombre": "Jayden Adams", "posicion": "Centrocampista"},
+    {"nombre": "Oswin Appollis", "posicion": "Delantero"},
+    {"nombre": "Iqraam Rayners", "posicion": "Delantero"},
+    {"nombre": "Tshepang Moremi", "posicion": "Delantero"},
+    {"nombre": "Relebohile Mofokeng", "posicion": "Delantero"},
+    {"nombre": "Evidence Makgopa", "posicion": "Delantero"},
+    {"nombre": "Themba Zwane", "posicion": "Delantero"},
+    {"nombre": "Lyle Foster", "posicion": "Delantero"},
+    {"nombre": "Thapelo Maseko", "posicion": "Delantero"}
+  ]
+}

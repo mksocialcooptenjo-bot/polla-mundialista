@@ -1,0 +1,31 @@
+{
+  "pais": "Suiza",
+  "jugadores": [
+    {"nombre": "Gregor Kobel", "posicion": "Portero"},
+    {"nombre": "Yvon Mvogo", "posicion": "Portero"},
+    {"nombre": "Marvin Keller", "posicion": "Portero"},
+    {"nombre": "Manuel Akanji", "posicion": "Defensor"},
+    {"nombre": "Nico Elvedi", "posicion": "Defensor"},
+    {"nombre": "Ricardo Rodríguez", "posicion": "Defensor"},
+    {"nombre": "Silvan Widmer", "posicion": "Defensor"},
+    {"nombre": "Miro Muheim", "posicion": "Defensor"},
+    {"nombre": "Aurèle Amenda", "posicion": "Defensor"},
+    {"nombre": "Eray Cömert", "posicion": "Defensor"},
+    {"nombre": "Luca Jaquez", "posicion": "Defensor"},
+    {"nombre": "Granit Xhaka", "posicion": "Centrocampista"},
+    {"nombre": "Johan Manzambi", "posicion": "Centrocampista"},
+    {"nombre": "Remo Freuler", "posicion": "Centrocampista"},
+    {"nombre": "Denis Zakaria", "posicion": "Centrocampista"},
+    {"nombre": "Ardon Jashari", "posicion": "Centrocampista"},
+    {"nombre": "Djibril Sow", "posicion": "Centrocampista"},
+    {"nombre": "Christian Fassnacht", "posicion": "Centrocampista"},
+    {"nombre": "Michel Aebischer", "posicion": "Centrocampista"},
+    {"nombre": "Fabian Rieder", "posicion": "Centrocampista"},
+    {"nombre": "Rubén Vargas", "posicion": "Centrocampista"},
+    {"nombre": "Breel Embolo", "posicion": "Delantero"},
+    {"nombre": "Noah Okafor", "posicion": "Delantero"},
+    {"nombre": "Dan Ndoye", "posicion": "Delantero"},
+    {"nombre": "Zeki Amdouni", "posicion": "Delantero"},
+    {"nombre": "Cedric Itten", "posicion": "Delantero"}
+  ]
+}

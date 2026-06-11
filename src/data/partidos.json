@@ -1,0 +1,842 @@
+{
+  "fase_grupos": [
+    {
+      "fecha": "Jueves, 11 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "México",
+          "equipo2": "Sudáfrica",
+          "grupo": "A",
+          "estadio": "Estadio Ciudad de México"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Corea del Sur",
+          "equipo2": "Chequia",
+          "grupo": "A",
+          "estadio": "Estadio Guadalajara"
+        }
+      ]
+    },
+    {
+      "fecha": "Viernes, 12 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Canadá",
+          "equipo2": "Bosnia-Herzegovina",
+          "grupo": "B",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Estados Unidos",
+          "equipo2": "Paraguay",
+          "grupo": "D",
+          "estadio": "Estadio Los Ángeles"
+        }
+      ]
+    },
+    {
+      "fecha": "Sábado, 13 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Catar",
+          "equipo2": "Suiza",
+          "grupo": "B",
+          "estadio": "Estadio Bahía de San Francisco"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Brasil",
+          "equipo2": "Marruecos",
+          "grupo": "C",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Haití",
+          "equipo2": "Escocia",
+          "grupo": "C",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "hora": "00:00",
+          "equipo1": "Australia",
+          "equipo2": "Turquía",
+          "grupo": "D",
+          "estadio": "Estadio BC Place Vancouver"
+        }
+      ]
+    },
+    {
+      "fecha": "Domingo, 14 de junio 2026",
+      "partidos": [
+        {
+          "hora": "13:00",
+          "equipo1": "Alemania",
+          "equipo2": "Curazao",
+          "grupo": "E",
+          "estadio": "Estadio Houston"
+        },
+        {
+          "hora": "16:00",
+          "equipo1": "Países Bajos",
+          "equipo2": "Japón",
+          "grupo": "F",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "hora": "19:00",
+          "equipo1": "Costa de Marfil",
+          "equipo2": "Ecuador",
+          "grupo": "E",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Suecia",
+          "equipo2": "Túnez",
+          "grupo": "F",
+          "estadio": "Estadio Monterrey"
+        }
+      ]
+    },
+    {
+      "fecha": "Lunes, 15 de junio 2026",
+      "partidos": [
+        {
+          "hora": "12:00",
+          "equipo1": "España",
+          "equipo2": "Cabo Verde",
+          "grupo": "H",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "hora": "15:00",
+          "equipo1": "Bélgica",
+          "equipo2": "Egipto",
+          "grupo": "G",
+          "estadio": "Estadio Seattle"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Arabia Saudita",
+          "equipo2": "Uruguay",
+          "grupo": "H",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Irán",
+          "equipo2": "Nueva Zelanda",
+          "grupo": "G",
+          "estadio": "Estadio Los Ángeles"
+        }
+      ]
+    },
+    {
+      "fecha": "Martes, 16 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Francia",
+          "equipo2": "Senegal",
+          "grupo": "I",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Irak",
+          "equipo2": "Noruega",
+          "grupo": "I",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Argentina",
+          "equipo2": "Argelia",
+          "grupo": "J",
+          "estadio": "Estadio Kansas City"
+        },
+        {
+          "hora": "00:00",
+          "equipo1": "Austria",
+          "equipo2": "Jordania",
+          "grupo": "J",
+          "estadio": "Estadio Bahía de San Francisco"
+        }
+      ]
+    },
+    {
+      "fecha": "Miércoles, 17 de junio 2026",
+      "partidos": [
+        {
+          "hora": "13:00",
+          "equipo1": "Portugal",
+          "equipo2": "República Democrática del Congo",
+          "grupo": "K",
+          "estadio": "Estadio Houston"
+        },
+        {
+          "hora": "16:00",
+          "equipo1": "Inglaterra",
+          "equipo2": "Croacia",
+          "grupo": "L",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "hora": "19:00",
+          "equipo1": "Ghana",
+          "equipo2": "Panamá",
+          "grupo": "L",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Uzbekistán",
+          "equipo2": "Colombia",
+          "grupo": "K",
+          "estadio": "Estadio Ciudad de México"
+        }
+      ]
+    },
+    {
+      "fecha": "Jueves, 18 de junio 2026",
+      "partidos": [
+        {
+          "hora": "12:00",
+          "equipo1": "Chequia",
+          "equipo2": "Sudáfrica",
+          "grupo": "A",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "hora": "15:00",
+          "equipo1": "Suiza",
+          "equipo2": "Bosnia-Herzegovina",
+          "grupo": "B",
+          "estadio": "Estadio Los Ángeles"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Canadá",
+          "equipo2": "Catar",
+          "grupo": "B",
+          "estadio": "Estadio BC Place Vancouver"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "México",
+          "equipo2": "Corea del Sur",
+          "grupo": "A",
+          "estadio": "Estadio Guadalajara"
+        }
+      ]
+    },
+    {
+      "fecha": "Viernes, 19 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Estados Unidos",
+          "equipo2": "Australia",
+          "grupo": "D",
+          "estadio": "Estadio Seattle"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Escocia",
+          "equipo2": "Marruecos",
+          "grupo": "C",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Brasil",
+          "equipo2": "Haití",
+          "grupo": "C",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "hora": "00:00",
+          "equipo1": "Turquía",
+          "equipo2": "Paraguay",
+          "grupo": "D",
+          "estadio": "Estadio Bahía de San Francisco"
+        }
+      ]
+    },
+    {
+      "fecha": "Sábado, 20 de junio 2026",
+      "partidos": [
+        {
+          "hora": "13:00",
+          "equipo1": "Países Bajos",
+          "equipo2": "Suecia",
+          "grupo": "F",
+          "estadio": "Estadio Houston"
+        },
+        {
+          "hora": "16:00",
+          "equipo1": "Alemania",
+          "equipo2": "Costa de Marfil",
+          "grupo": "E",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Ecuador",
+          "equipo2": "Curazao",
+          "grupo": "E",
+          "estadio": "Estadio Kansas City"
+        },
+        {
+          "hora": "00:00",
+          "equipo1": "Túnez",
+          "equipo2": "Japón",
+          "grupo": "F",
+          "estadio": "Estadio Monterrey"
+        }
+      ]
+    },
+    {
+      "fecha": "Domingo, 21 de junio 2026",
+      "partidos": [
+        {
+          "hora": "12:00",
+          "equipo1": "España",
+          "equipo2": "Arabia Saudita",
+          "grupo": "H",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "hora": "15:00",
+          "equipo1": "Bélgica",
+          "equipo2": "Irán",
+          "grupo": "G",
+          "estadio": "Estadio Los Ángeles"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Uruguay",
+          "equipo2": "Cabo Verde",
+          "grupo": "H",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Nueva Zelanda",
+          "equipo2": "Egipto",
+          "grupo": "G",
+          "estadio": "Estadio BC Place Vancouver"
+        }
+      ]
+    },
+    {
+      "fecha": "Lunes, 22 de junio 2026",
+      "partidos": [
+        {
+          "hora": "13:00",
+          "equipo1": "Argentina",
+          "equipo2": "Austria",
+          "grupo": "J",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "hora": "17:00",
+          "equipo1": "Francia",
+          "equipo2": "Irak",
+          "grupo": "I",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "hora": "20:00",
+          "equipo1": "Noruega",
+          "equipo2": "Senegal",
+          "grupo": "I",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "hora": "23:00",
+          "equipo1": "Jordania",
+          "equipo2": "Argelia",
+          "grupo": "J",
+          "estadio": "Estadio Bahía de San Francisco"
+        }
+      ]
+    },
+    {
+      "fecha": "Martes, 23 de junio 2026",
+      "partidos": [
+        {
+          "hora": "13:00",
+          "equipo1": "Portugal",
+          "equipo2": "Uzbekistán",
+          "grupo": "K",
+          "estadio": "Estadio Houston"
+        },
+        {
+          "hora": "16:00",
+          "equipo1": "Inglaterra",
+          "equipo2": "Ghana",
+          "grupo": "L",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "hora": "19:00",
+          "equipo1": "Panamá",
+          "equipo2": "Croacia",
+          "grupo": "L",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Colombia",
+          "equipo2": "República Democrática del Congo",
+          "grupo": "K",
+          "estadio": "Estadio Guadalajara"
+        }
+      ]
+    },
+    {
+      "fecha": "Miércoles, 24 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Suiza",
+          "equipo2": "Canadá",
+          "grupo": "B",
+          "estadio": "Estadio BC Place Vancouver"
+        },
+        {
+          "hora": "15:00",
+          "equipo1": "Bosnia-Herzegovina",
+          "equipo2": "Catar",
+          "grupo": "B",
+          "estadio": "Estadio Seattle"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Escocia",
+          "equipo2": "Brasil",
+          "grupo": "C",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "hora": "18:00",
+          "equipo1": "Marruecos",
+          "equipo2": "Haití",
+          "grupo": "C",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Chequia",
+          "equipo2": "México",
+          "grupo": "A",
+          "estadio": "Estadio Ciudad de México"
+        },
+        {
+          "hora": "21:00",
+          "equipo1": "Sudáfrica",
+          "equipo2": "Corea del Sur",
+          "grupo": "A",
+          "estadio": "Estadio Monterrey"
+        }
+      ]
+    },
+    {
+      "fecha": "Jueves, 25 de junio 2026",
+      "partidos": [
+        {
+          "hora": "16:00",
+          "equipo1": "Curazao",
+          "equipo2": "Costa de Marfil",
+          "grupo": "E",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "hora": "16:00",
+          "equipo1": "Ecuador",
+          "equipo2": "Alemania",
+          "grupo": "E",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "hora": "19:00",
+          "equipo1": "Japón",
+          "equipo2": "Suecia",
+          "grupo": "F",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "hora": "19:00",
+          "equipo1": "Túnez",
+          "equipo2": "Países Bajos",
+          "grupo": "F",
+          "estadio": "Estadio Kansas City"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Turquía",
+          "equipo2": "Estados Unidos",
+          "grupo": "D",
+          "estadio": "Estadio Los Ángeles"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Paraguay",
+          "equipo2": "Australia",
+          "grupo": "D",
+          "estadio": "Estadio Bahía de San Francisco"
+        }
+      ]
+    },
+    {
+      "fecha": "Viernes, 26 de junio 2026",
+      "partidos": [
+        {
+          "hora": "15:00",
+          "equipo1": "Noruega",
+          "equipo2": "Francia",
+          "grupo": "I",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "hora": "15:00",
+          "equipo1": "Senegal",
+          "equipo2": "Irak",
+          "grupo": "I",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "hora": "20:00",
+          "equipo1": "Cabo Verde",
+          "equipo2": "Arabia Saudita",
+          "grupo": "H",
+          "estadio": "Estadio Houston"
+        },
+        {
+          "hora": "20:00",
+          "equipo1": "Uruguay",
+          "equipo2": "España",
+          "grupo": "H",
+          "estadio": "Estadio Guadalajara"
+        },
+        {
+          "hora": "23:00",
+          "equipo1": "Egipto",
+          "equipo2": "Irán",
+          "grupo": "G",
+          "estadio": "Estadio Seattle"
+        },
+        {
+          "hora": "23:00",
+          "equipo1": "Nueva Zelanda",
+          "equipo2": "Bélgica",
+          "grupo": "G",
+          "estadio": "Estadio BC Place Vancouver"
+        }
+      ]
+    },
+    {
+      "fecha": "Sábado, 27 de junio 2026",
+      "partidos": [
+        {
+          "hora": "17:00",
+          "equipo1": "Panamá",
+          "equipo2": "Inglaterra",
+          "grupo": "L",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "hora": "17:00",
+          "equipo1": "Croacia",
+          "equipo2": "Ghana",
+          "grupo": "L",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "hora": "19:30",
+          "equipo1": "Colombia",
+          "equipo2": "Portugal",
+          "grupo": "K",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "hora": "19:30",
+          "equipo1": "República Democrática del Congo",
+          "equipo2": "Uzbekistán",
+          "grupo": "K",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Argelia",
+          "equipo2": "Austria",
+          "grupo": "J",
+          "estadio": "Estadio Kansas City"
+        },
+        {
+          "hora": "22:00",
+          "equipo1": "Jordania",
+          "equipo2": "Argentina",
+          "grupo": "J",
+          "estadio": "Estadio Dallas"
+        }
+      ]
+    }
+  ],
+  "dieciseisavos": [
+    {
+      "fecha": "Domingo, 28 de junio 2026",
+      "partidos": [
+        {
+          "partido": "73",
+          "descripcion": "2º Grupo A vs 2º Grupo B",
+          "estadio": "Estadio Los Ángeles"
+        }
+      ]
+    },
+    {
+      "fecha": "Lunes, 29 de junio 2026",
+      "partidos": [
+        {
+          "partido": "74",
+          "descripcion": "1º Grupo E vs 3º Grupo A/B/C/D/F",
+          "estadio": "Estadio Boston"
+        },
+        {
+          "partido": "75",
+          "descripcion": "1º Grupo F vs 2º Grupo C",
+          "estadio": "Estadio Monterrey"
+        },
+        {
+          "partido": "76",
+          "descripcion": "1º Grupo C vs 2º Grupo F",
+          "estadio": "Estadio Houston"
+        }
+      ]
+    },
+    {
+      "fecha": "Martes, 30 de junio 2026",
+      "partidos": [
+        {
+          "partido": "77",
+          "descripcion": "1º Grupo I vs 3º Grupo C/D/F/G/H",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "partido": "78",
+          "descripcion": "2º Grupo E vs 2º Grupo I",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "partido": "79",
+          "descripcion": "1º Grupo A vs 3º Grupo C/E/F/H/I",
+          "estadio": "Estadio Ciudad de México"
+        }
+      ]
+    },
+    {
+      "fecha": "Miércoles, 1 de julio 2026",
+      "partidos": [
+        {
+          "partido": "80",
+          "descripcion": "1º Grupo L vs 3º Grupo E/H/I/J/K",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "partido": "81",
+          "descripcion": "1º Grupo D vs 3º Grupo B/E/F/I/J",
+          "estadio": "Estadio Bahía de San Francisco"
+        },
+        {
+          "partido": "82",
+          "descripcion": "1º Grupo G vs 3º Grupo A/E/H/I/J",
+          "estadio": "Estadio Seattle"
+        }
+      ]
+    },
+    {
+      "fecha": "Jueves, 2 de julio 2026",
+      "partidos": [
+        {
+          "partido": "83",
+          "descripcion": "2º Grupo K vs 2º Grupo L",
+          "estadio": "Estadio Toronto"
+        },
+        {
+          "partido": "84",
+          "descripcion": "1º Grupo H vs 2º Grupo J",
+          "estadio": "Estadio Los Ángeles"
+        },
+        {
+          "partido": "85",
+          "descripcion": "1º Grupo B vs 3º Grupo E/F/G/I/J",
+          "estadio": "Estadio BC Place Vancouver"
+        }
+      ]
+    },
+    {
+      "fecha": "Viernes, 3 de julio 2026",
+      "partidos": [
+        {
+          "partido": "86",
+          "descripcion": "1º Grupo J vs 2º Grupo H",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "partido": "87",
+          "descripcion": "1º Grupo K vs 3º Grupo D/E/I/J/L",
+          "estadio": "Estadio Kansas City"
+        },
+        {
+          "partido": "88",
+          "descripcion": "2º Grupo D vs 2º Grupo G",
+          "estadio": "Estadio Dallas"
+        }
+      ]
+    }
+  ],
+  "octavos": [
+    {
+      "fecha": "Sábado, 4 de julio 2026",
+      "partidos": [
+        {
+          "partido": "89",
+          "descripcion": "Ganador 74 vs Ganador 77",
+          "estadio": "Estadio Filadelfia"
+        },
+        {
+          "partido": "90",
+          "descripcion": "Ganador 73 vs Ganador 75",
+          "estadio": "Estadio Houston"
+        }
+      ]
+    },
+    {
+      "fecha": "Domingo, 5 de julio 2026",
+      "partidos": [
+        {
+          "partido": "91",
+          "descripcion": "Ganador 76 vs Ganador 78",
+          "estadio": "Estadio Nueva York Nueva Jersey"
+        },
+        {
+          "partido": "92",
+          "descripcion": "Ganador 79 vs Ganador 80",
+          "estadio": "Estadio Ciudad de México"
+        }
+      ]
+    },
+    {
+      "fecha": "Lunes, 6 de julio 2026",
+      "partidos": [
+        {
+          "partido": "93",
+          "descripcion": "Ganador 83 vs Ganador 84",
+          "estadio": "Estadio Dallas"
+        },
+        {
+          "partido": "94",
+          "descripcion": "Ganador 81 vs Ganador 82",
+          "estadio": "Estadio Seattle"
+        }
+      ]
+    },
+    {
+      "fecha": "Martes, 7 de julio 2026",
+      "partidos": [
+        {
+          "partido": "95",
+          "descripcion": "Ganador 86 vs Ganador 88",
+          "estadio": "Estadio Atlanta"
+        },
+        {
+          "partido": "96",
+          "descripcion": "Ganador 85 vs Ganador 87",
+          "estadio": "Estadio BC Place Vancouver"
+        }
+      ]
+    }
+  ],
+  "cuartos": [
+    {
+      "fecha": "Jueves, 9 de julio 2026",
+      "partidos": [
+        {
+          "partido": "97",
+          "descripcion": "Ganador 89 vs Ganador 90",
+          "estadio": "Estadio Boston"
+        }
+      ]
+    },
+    {
+      "fecha": "Viernes, 10 de julio 2026",
+      "partidos": [
+        {
+          "partido": "98",
+          "descripcion": "Ganador 93 vs Ganador 94",
+          "estadio": "Estadio Los Ángeles"
+        }
+      ]
+    },
+    {
+      "fecha": "Sábado, 11 de julio 2026",
+      "partidos": [
+        {
+          "partido": "99",
+          "descripcion": "Ganador 91 vs Ganador 92",
+          "estadio": "Estadio Miami"
+        },
+        {
+          "partido": "100",
+          "descripcion": "Ganador 95 vs Ganador 96",
+          "estadio": "Estadio Kansas City"
+        }
+      ]
+    }
+  ],
+  "semifinales": [
+    {
+      "fecha": "Martes, 14 de julio 2026",
+      "partidos": [
+        {
+          "partido": "101",
+          "descripcion": "Ganador 97 vs Ganador 98",
+          "estadio": "Estadio Dallas"
+        }
+      ]
+    },
+    {
+      "fecha": "Miércoles, 15 de julio 2026",
+      "partidos": [
+        {
+          "partido": "102",
+          "descripcion": "Ganador 99 vs Ganador 100",
+          "estadio": "Estadio Atlanta"
+        }
+      ]
+    }
+  ],
+  "tercer_puesto": [
+    {
+      "fecha": "Sábado, 18 de julio 2026",
+      "partido": "103",
+      "descripcion": "Perdedor 101 vs Perdedor 102",
+      "estadio": "Estadio Miami"
+    }
+  ],
+  "final": [
+    {
+      "fecha": "Domingo, 19 de julio 2026",
+      "partido": "104",
+      "descripcion": "Ganador 101 vs Ganador 102",
+      "estadio": "Estadio Nueva York Nueva Jersey"
+    }
+  ]
+}

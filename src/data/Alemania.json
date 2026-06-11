@@ -1,0 +1,30 @@
+{
+  "pais": "Alemania",
+  "jugadores": [
+    {"nombre": "Oliver Baumann", "posicion": "Portero"},
+    {"nombre": "Manuel Neuer", "posicion": "Portero"},
+    {"nombre": "Alexander Nübel", "posicion": "Portero"},
+    {"nombre": "Waldemar Anton", "posicion": "Defensor"},
+    {"nombre": "Nathaniel Brown", "posicion": "Defensor"},
+    {"nombre": "David Raum", "posicion": "Defensor"},
+    {"nombre": "Antonio Rüdiger", "posicion": "Defensor"},
+    {"nombre": "Nico Schlotterbeck", "posicion": "Defensor"},
+    {"nombre": "Jonathan Tah", "posicion": "Defensor"},
+    {"nombre": "Malick Thiaw", "posicion": "Defensor"},
+    {"nombre": "Pascal Gross", "posicion": "Centrocampista"},
+    {"nombre": "Joshua Kimmich", "posicion": "Centrocampista"},
+    {"nombre": "Felix Nmecha", "posicion": "Centrocampista"},
+    {"nombre": "Aleksandar Pavlovic", "posicion": "Centrocampista"},
+    {"nombre": "Angelo Stiller", "posicion": "Centrocampista"},
+    {"nombre": "Leon Goretzka", "posicion": "Centrocampista"},
+    {"nombre": "Florian Wirtz", "posicion": "Centrocampista"},
+    {"nombre": "Jamie Leweling", "posicion": "Centrocampista"},
+    {"nombre": "Maximilian Beier", "posicion": "Delantero"},
+    {"nombre": "Kai Havertz", "posicion": "Delantero"},
+    {"nombre": "Lennart Karl", "posicion": "Delantero"},
+    {"nombre": "Jamal Musiala", "posicion": "Delantero"},
+    {"nombre": "Leroy Sané", "posicion": "Delantero"},
+    {"nombre": "Deniz Undav", "posicion": "Delantero"},
+    {"nombre": "Nick Woltemade", "posicion": "Delantero"}
+  ]
+}

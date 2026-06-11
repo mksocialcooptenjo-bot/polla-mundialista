@@ -1,0 +1,31 @@
+{
+  "pais": "España",
+  "jugadores": [
+    {"nombre": "Unai Simón", "posicion": "Portero"},
+    {"nombre": "David Raya", "posicion": "Portero"},
+    {"nombre": "Joan García", "posicion": "Portero"},
+    {"nombre": "Marc Cucurella", "posicion": "Defensor"},
+    {"nombre": "Pau Cubarsí", "posicion": "Defensor"},
+    {"nombre": "Aymeric Laporte", "posicion": "Defensor"},
+    {"nombre": "Álex Grimaldo", "posicion": "Defensor"},
+    {"nombre": "Pedro Porro", "posicion": "Defensor"},
+    {"nombre": "Eric García", "posicion": "Defensor"},
+    {"nombre": "Marcos Llorente", "posicion": "Defensor"},
+    {"nombre": "Marc Pubill", "posicion": "Defensor"},
+    {"nombre": "Gavi", "posicion": "Centrocampista"},
+    {"nombre": "Rodri", "posicion": "Centrocampista"},
+    {"nombre": "Pedri", "posicion": "Centrocampista"},
+    {"nombre": "Martín Zubimendi", "posicion": "Centrocampista"},
+    {"nombre": "Fabián Ruiz", "posicion": "Centrocampista"},
+    {"nombre": "Álex Baena", "posicion": "Centrocampista"},
+    {"nombre": "Mikel Merino", "posicion": "Centrocampista"},
+    {"nombre": "Lamine Yamal", "posicion": "Delantero"},
+    {"nombre": "Nico Williams", "posicion": "Delantero"},
+    {"nombre": "Dani Olmo", "posicion": "Delantero"},
+    {"nombre": "Ferran Torres", "posicion": "Delantero"},
+    {"nombre": "Mikel Oyarzabal", "posicion": "Delantero"},
+    {"nombre": "Yéremy Pino", "posicion": "Delantero"},
+    {"nombre": "Borja Iglesias", "posicion": "Delantero"},
+    {"nombre": "Víctor Muñoz", "posicion": "Delantero"}
+  ]
+}

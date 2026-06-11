@@ -1,0 +1,31 @@
+{
+  "pais": "Escocia",
+  "jugadores": [
+    {"nombre": "Craig Gordon", "posicion": "Portero"},
+    {"nombre": "Angus Gunn", "posicion": "Portero"},
+    {"nombre": "Liam Kelly", "posicion": "Portero"},
+    {"nombre": "Grant Hanley", "posicion": "Defensor"},
+    {"nombre": "Jack Hendry", "posicion": "Defensor"},
+    {"nombre": "Aaron Hickey", "posicion": "Defensor"},
+    {"nombre": "Dom Hyam", "posicion": "Defensor"},
+    {"nombre": "Scott McKenna", "posicion": "Defensor"},
+    {"nombre": "Nathan Patterson", "posicion": "Defensor"},
+    {"nombre": "Anthony Ralston", "posicion": "Defensor"},
+    {"nombre": "Andy Robertson", "posicion": "Defensor"},
+    {"nombre": "John Souttar", "posicion": "Defensor"},
+    {"nombre": "Kieran Tierney", "posicion": "Defensor"},
+    {"nombre": "Ryan Christie", "posicion": "Centrocampista"},
+    {"nombre": "Finlay Curtis", "posicion": "Centrocampista"},
+    {"nombre": "Lewis Ferguson", "posicion": "Centrocampista"},
+    {"nombre": "Ben Gannon-Doak", "posicion": "Centrocampista"},
+    {"nombre": "Billy Gilmour", "posicion": "Centrocampista"},
+    {"nombre": "John McGinn", "posicion": "Centrocampista"},
+    {"nombre": "Kenny McLean", "posicion": "Centrocampista"},
+    {"nombre": "Scott McTominay", "posicion": "Centrocampista"},
+    {"nombre": "Ché Adams", "posicion": "Delantero"},
+    {"nombre": "Lyndon Dykes", "posicion": "Delantero"},
+    {"nombre": "George Hirst", "posicion": "Delantero"},
+    {"nombre": "Lawrence Shankland", "posicion": "Delantero"},
+    {"nombre": "Ross Stewart", "posicion": "Delantero"}
+  ]
+}

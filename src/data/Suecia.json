@@ -1,0 +1,31 @@
+{
+  "pais": "Suecia",
+  "jugadores": [
+    {"nombre": "Viktor Johansson", "posicion": "Portero"},
+    {"nombre": "Kristoffer Nordfeldt", "posicion": "Portero"},
+    {"nombre": "Jacob Widell Zetterstrom", "posicion": "Portero"},
+    {"nombre": "Hjalmar Ekdal", "posicion": "Defensor"},
+    {"nombre": "Gabriel Gudmundsson", "posicion": "Defensor"},
+    {"nombre": "Isak Hien", "posicion": "Defensor"},
+    {"nombre": "Emil Holm", "posicion": "Defensor"},
+    {"nombre": "Gustaf Lagerbielke", "posicion": "Defensor"},
+    {"nombre": "Victor Lindelöf", "posicion": "Defensor"},
+    {"nombre": "Erik Smith", "posicion": "Defensor"},
+    {"nombre": "Carl Starfelt", "posicion": "Defensor"},
+    {"nombre": "Elliot Stroud", "posicion": "Defensor"},
+    {"nombre": "Daniel Svensson", "posicion": "Defensor"},
+    {"nombre": "Taha Ali", "posicion": "Centrocampista"},
+    {"nombre": "Yasin Ayari", "posicion": "Centrocampista"},
+    {"nombre": "Lucas Bergvall", "posicion": "Centrocampista"},
+    {"nombre": "Jesper Karlström", "posicion": "Centrocampista"},
+    {"nombre": "Ken Sema", "posicion": "Centrocampista"},
+    {"nombre": "Mattias Svanberg", "posicion": "Centrocampista"},
+    {"nombre": "Besfort Zeneli", "posicion": "Centrocampista"},
+    {"nombre": "Alexander Bernhardsson", "posicion": "Delantero"},
+    {"nombre": "Anthony Elanga", "posicion": "Delantero"},
+    {"nombre": "Viktor Gyökeres", "posicion": "Delantero"},
+    {"nombre": "Alexander Isak", "posicion": "Delantero"},
+    {"nombre": "Gustaf Nilsson", "posicion": "Delantero"},
+    {"nombre": "Benjamin Nygren", "posicion": "Delantero"}
+  ]
+}

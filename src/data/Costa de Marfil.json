@@ -1,0 +1,31 @@
+{
+  "pais": "Costa de Marfil",
+  "jugadores": [
+    {"nombre": "Yahia Fofana", "posicion": "Portero"},
+    {"nombre": "Mohamed Koné", "posicion": "Portero"},
+    {"nombre": "Alban Lafont", "posicion": "Portero"},
+    {"nombre": "Emmanuel Agbadou", "posicion": "Defensor"},
+    {"nombre": "Clément Akpa", "posicion": "Defensor"},
+    {"nombre": "Ousmane Diomande", "posicion": "Defensor"},
+    {"nombre": "Guela Doué", "posicion": "Defensor"},
+    {"nombre": "Ghislain Konan", "posicion": "Defensor"},
+    {"nombre": "Odilon Kossounou", "posicion": "Defensor"},
+    {"nombre": "Evan Ndicka", "posicion": "Defensor"},
+    {"nombre": "Wilfried Singo", "posicion": "Defensor"},
+    {"nombre": "Seko Fofana", "posicion": "Centrocampista"},
+    {"nombre": "Parfait Guiagon", "posicion": "Centrocampista"},
+    {"nombre": "Franck Kessié", "posicion": "Centrocampista"},
+    {"nombre": "Christ Inao Oulaï", "posicion": "Centrocampista"},
+    {"nombre": "Ibrahim Sangaré", "posicion": "Centrocampista"},
+    {"nombre": "Jean Michaël Seri", "posicion": "Centrocampista"},
+    {"nombre": "Simon Adingra", "posicion": "Delantero"},
+    {"nombre": "Ange-Yoan Bonny", "posicion": "Delantero"},
+    {"nombre": "Amad Diallo", "posicion": "Delantero"},
+    {"nombre": "Oumar Diakité", "posicion": "Delantero"},
+    {"nombre": "Yan Diomande", "posicion": "Delantero"},
+    {"nombre": "Evann Guessand", "posicion": "Delantero"},
+    {"nombre": "Nicolas Pépé", "posicion": "Delantero"},
+    {"nombre": "Bazoumana Touré", "posicion": "Delantero"},
+    {"nombre": "Elye Wahi", "posicion": "Delantero"}
+  ]
+}

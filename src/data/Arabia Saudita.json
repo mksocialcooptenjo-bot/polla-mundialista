@@ -1,0 +1,31 @@
+{
+  "pais": "Arabia Saudita",
+  "jugadores": [
+    {"nombre": "Mohammed Al Owais", "posicion": "Portero"},
+    {"nombre": "Nawaf Al Aqidi", "posicion": "Portero"},
+    {"nombre": "Ahmed Al Kassar", "posicion": "Portero"},
+    {"nombre": "Abdulelah Al Amri", "posicion": "Defensor"},
+    {"nombre": "Hassan Tambakti", "posicion": "Defensor"},
+    {"nombre": "Jehad Thikri", "posicion": "Defensor"},
+    {"nombre": "Ali Lajami", "posicion": "Defensor"},
+    {"nombre": "Hassan Kadesh", "posicion": "Defensor"},
+    {"nombre": "Saud Abdulhamid", "posicion": "Defensor"},
+    {"nombre": "Mohammed Abu Al Shamat", "posicion": "Defensor"},
+    {"nombre": "Ali Majrashi", "posicion": "Defensor"},
+    {"nombre": "Moteb Al Harbi", "posicion": "Defensor"},
+    {"nombre": "Nawaf Boushal", "posicion": "Defensor"},
+    {"nombre": "Sultan Al-Ghannam", "posicion": "Defensor"},
+    {"nombre": "Mohammed Kanno", "posicion": "Centrocampista"},
+    {"nombre": "Abdullah Al Khaibari", "posicion": "Centrocampista"},
+    {"nombre": "Ziyad Al Johani", "posicion": "Centrocampista"},
+    {"nombre": "Nasser Al Dawsari", "posicion": "Centrocampista"},
+    {"nombre": "Musab Al Juwayr", "posicion": "Centrocampista"},
+    {"nombre": "Alaa Al Hajji", "posicion": "Centrocampista"},
+    {"nombre": "Salem Al Dawsari", "posicion": "Centrocampista"},
+    {"nombre": "Khalid Al Ghannam", "posicion": "Centrocampista"},
+    {"nombre": "Ayman Yahya", "posicion": "Centrocampista"},
+    {"nombre": "Firas Al Buraikan", "posicion": "Delantero"},
+    {"nombre": "Saleh Al Shehri", "posicion": "Delantero"},
+    {"nombre": "Abdullah Al Hamdan", "posicion": "Delantero"}
+  ]
+}

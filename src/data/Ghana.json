@@ -1,0 +1,31 @@
+{
+  "pais": "Ghana",
+  "jugadores": [
+    {"nombre": "Benjamin Asare", "posicion": "Portero"},
+    {"nombre": "Lawrence Ati-Zigi", "posicion": "Portero"},
+    {"nombre": "Joseph Anang", "posicion": "Portero"},
+    {"nombre": "Baba Abdul Rahman", "posicion": "Defensor"},
+    {"nombre": "Gideon Mensah", "posicion": "Defensor"},
+    {"nombre": "Marvin Senaya", "posicion": "Defensor"},
+    {"nombre": "Alidu Seidu", "posicion": "Defensor"},
+    {"nombre": "Abdul Mumin", "posicion": "Defensor"},
+    {"nombre": "Jerome Opoku", "posicion": "Defensor"},
+    {"nombre": "Jonas Adjetey", "posicion": "Defensor"},
+    {"nombre": "Kojo Oppong Peprah", "posicion": "Defensor"},
+    {"nombre": "Derrick Luckassen", "posicion": "Defensor"},
+    {"nombre": "Elisha Owusu", "posicion": "Centrocampista"},
+    {"nombre": "Thomas Partey", "posicion": "Centrocampista"},
+    {"nombre": "Kwasi Sibo", "posicion": "Centrocampista"},
+    {"nombre": "Augustine Boakye", "posicion": "Centrocampista"},
+    {"nombre": "Caleb Yirenkyi", "posicion": "Centrocampista"},
+    {"nombre": "Abdul Fatawu Issahaku", "posicion": "Centrocampista"},
+    {"nombre": "Kamal Deen Sulemana", "posicion": "Delantero"},
+    {"nombre": "Christopher Bonsu Baah", "posicion": "Delantero"},
+    {"nombre": "Ernest Nuamah", "posicion": "Delantero"},
+    {"nombre": "Antoine Semenyo", "posicion": "Delantero"},
+    {"nombre": "Brandon Thomas-Asante", "posicion": "Delantero"},
+    {"nombre": "Prince Kwabena Adu", "posicion": "Delantero"},
+    {"nombre": "Iñaki Williams", "posicion": "Delantero"},
+    {"nombre": "Jordan Ayew", "posicion": "Delantero"}
+  ]
+}

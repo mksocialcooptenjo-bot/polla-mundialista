@@ -1,0 +1,31 @@
+{
+  "pais": "Francia",
+  "jugadores": [
+    {"nombre": "Mike Maignan", "posicion": "Portero"},
+    {"nombre": "Robin Risser", "posicion": "Portero"},
+    {"nombre": "Brice Samba", "posicion": "Portero"},
+    {"nombre": "Lucas Digne", "posicion": "Defensor"},
+    {"nombre": "Malo Gusto", "posicion": "Defensor"},
+    {"nombre": "Lucas Hernández", "posicion": "Defensor"},
+    {"nombre": "Theo Hernández", "posicion": "Defensor"},
+    {"nombre": "Ibrahima Konaté", "posicion": "Defensor"},
+    {"nombre": "Jules Koundé", "posicion": "Defensor"},
+    {"nombre": "Maxence Lacroix", "posicion": "Defensor"},
+    {"nombre": "William Saliba", "posicion": "Defensor"},
+    {"nombre": "Dayot Upamecano", "posicion": "Defensor"},
+    {"nombre": "N'Golo Kanté", "posicion": "Centrocampista"},
+    {"nombre": "Manu Koné", "posicion": "Centrocampista"},
+    {"nombre": "Adrien Rabiot", "posicion": "Centrocampista"},
+    {"nombre": "Aurélien Tchouaméni", "posicion": "Centrocampista"},
+    {"nombre": "Warren Zaïre-Emery", "posicion": "Centrocampista"},
+    {"nombre": "Maghnes Akliouche", "posicion": "Delantero"},
+    {"nombre": "Bradley Barcola", "posicion": "Delantero"},
+    {"nombre": "Rayan Cherki", "posicion": "Delantero"},
+    {"nombre": "Ousmane Dembélé", "posicion": "Delantero"},
+    {"nombre": "Désiré Doué", "posicion": "Delantero"},
+    {"nombre": "Jean-Philippe Mateta", "posicion": "Delantero"},
+    {"nombre": "Kylian Mbappé", "posicion": "Delantero"},
+    {"nombre": "Michael Olise", "posicion": "Delantero"},
+    {"nombre": "Marcus Thuram", "posicion": "Delantero"}
+  ]
+}

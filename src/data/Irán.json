@@ -1,0 +1,32 @@
+{
+  "pais": "Irán",
+  "jugadores": [
+    {"nombre": "Alireza Beiranvand", "posicion": "Portero"},
+    {"nombre": "Hossein Hosseini", "posicion": "Portero"},
+    {"nombre": "Payam Niazmand", "posicion": "Portero"},
+    {"nombre": "Danial Eiri", "posicion": "Defensor"},
+    {"nombre": "Ehsan Hajsafi", "posicion": "Defensor"},
+    {"nombre": "Saleh Hardani", "posicion": "Defensor"},
+    {"nombre": "Hossein Kanaani", "posicion": "Defensor"},
+    {"nombre": "Shoka Khalilzadeh", "posicion": "Defensor"},
+    {"nombre": "Milad Mohammadi", "posicion": "Defensor"},
+    {"nombre": "Ali Nemati", "posicion": "Defensor"},
+    {"nombre": "Omid Noorafkan", "posicion": "Defensor"},
+    {"nombre": "Ramin Rezaeian", "posicion": "Defensor"},
+    {"nombre": "Rouzbeh Cheshmi", "posicion": "Centrocampista"},
+    {"nombre": "Saeid Ezatolahi", "posicion": "Centrocampista"},
+    {"nombre": "Mehdi Ghaedi", "posicion": "Centrocampista"},
+    {"nombre": "Saman Ghoddos", "posicion": "Centrocampista"},
+    {"nombre": "Mohammad Ghorbani", "posicion": "Centrocampista"},
+    {"nombre": "Alireza Jahanbakhsh", "posicion": "Centrocampista"},
+    {"nombre": "Mohammad Mohebi", "posicion": "Centrocampista"},
+    {"nombre": "Amir Mohammad Razzaghinia", "posicion": "Centrocampista"},
+    {"nombre": "Mehdi Torabi", "posicion": "Centrocampista"},
+    {"nombre": "Aria Yousefi", "posicion": "Centrocampista"},
+    {"nombre": "Ali Alipour", "posicion": "Delantero"},
+    {"nombre": "Dennis Dargahi", "posicion": "Delantero"},
+    {"nombre": "Amirhossein Hosseinzadeh", "posicion": "Delantero"},
+    {"nombre": "Amirhossein Mahmoudi", "posicion": "Delantero"},
+    {"nombre": "Mehdi Taremi", "posicion": "Delantero"}
+  ]
+}

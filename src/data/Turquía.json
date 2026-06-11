@@ -1,0 +1,31 @@
+{
+  "pais": "Turquía",
+  "jugadores": [
+    {"nombre": "Ugurcan Cakir", "posicion": "Portero"},
+    {"nombre": "Mert Gunok", "posicion": "Portero"},
+    {"nombre": "Altay Bayindir", "posicion": "Portero"},
+    {"nombre": "Merih Demiral", "posicion": "Defensor"},
+    {"nombre": "Zeki Celik", "posicion": "Defensor"},
+    {"nombre": "Caglar Soyuncu", "posicion": "Defensor"},
+    {"nombre": "Mert Muldur", "posicion": "Defensor"},
+    {"nombre": "Ferdi Kadioglu", "posicion": "Defensor"},
+    {"nombre": "Ozan Kabak", "posicion": "Defensor"},
+    {"nombre": "Abdulkerim Bardakci", "posicion": "Defensor"},
+    {"nombre": "Eren Elmali", "posicion": "Defensor"},
+    {"nombre": "Samet Akaydin", "posicion": "Defensor"},
+    {"nombre": "Hakan Calhanoglou", "posicion": "Centrocampista"},
+    {"nombre": "Kaan Ayhan", "posicion": "Centrocampista"},
+    {"nombre": "Orkun Kokcu", "posicion": "Centrocampista"},
+    {"nombre": "Ismail Yuksek", "posicion": "Centrocampista"},
+    {"nombre": "Salih Ozcan", "posicion": "Centrocampista"},
+    {"nombre": "Kerem Akturkoglu", "posicion": "Delantero"},
+    {"nombre": "Irfan Can Kahveci", "posicion": "Delantero"},
+    {"nombre": "Baris Alper Yilmaz", "posicion": "Delantero"},
+    {"nombre": "Arda Guler", "posicion": "Delantero"},
+    {"nombre": "Kenan Yildiz", "posicion": "Delantero"},
+    {"nombre": "Yunus Akgun", "posicion": "Delantero"},
+    {"nombre": "Oguz Aydin", "posicion": "Delantero"},
+    {"nombre": "Deniz Gul", "posicion": "Delantero"},
+    {"nombre": "Can Uzun", "posicion": "Delantero"}
+  ]
+}

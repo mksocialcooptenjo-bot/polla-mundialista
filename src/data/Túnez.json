@@ -1,0 +1,31 @@
+{
+  "pais": "Túnez",
+  "jugadores": [
+    {"nombre": "Aymen Dahmen", "posicion": "Portero"},
+    {"nombre": "Sabri Ben Hessen", "posicion": "Portero"},
+    {"nombre": "Abdelmouhib Chamakh", "posicion": "Portero"},
+    {"nombre": "Montassar Talbi", "posicion": "Defensor"},
+    {"nombre": "Dylan Bronn", "posicion": "Defensor"},
+    {"nombre": "Omar Rekik", "posicion": "Defensor"},
+    {"nombre": "Yan Valery", "posicion": "Defensor"},
+    {"nombre": "Ali Abdi", "posicion": "Defensor"},
+    {"nombre": "Moutaz Neffati", "posicion": "Defensor"},
+    {"nombre": "Raed Chikhaoui", "posicion": "Defensor"},
+    {"nombre": "Adam Arous", "posicion": "Defensor"},
+    {"nombre": "Mohamed Amine Ben Hamida", "posicion": "Defensor"},
+    {"nombre": "Ellyes Skhiri", "posicion": "Centrocampista"},
+    {"nombre": "Hannibal Mejbri", "posicion": "Centrocampista"},
+    {"nombre": "Anis Ben Slimane", "posicion": "Centrocampista"},
+    {"nombre": "Hadj Mahmoud", "posicion": "Centrocampista"},
+    {"nombre": "Rani Khedira", "posicion": "Centrocampista"},
+    {"nombre": "Mortadha Ben Ouanes", "posicion": "Centrocampista"},
+    {"nombre": "Elias Achouri", "posicion": "Delantero"},
+    {"nombre": "Ismaël Gharbi", "posicion": "Delantero"},
+    {"nombre": "Elias Saad", "posicion": "Delantero"},
+    {"nombre": "Sebastian Tounekti", "posicion": "Delantero"},
+    {"nombre": "Firas Chaouat", "posicion": "Delantero"},
+    {"nombre": "Khalil Ayari", "posicion": "Delantero"},
+    {"nombre": "Hazem Mastouri", "posicion": "Delantero"},
+    {"nombre": "Rayan Elloumi", "posicion": "Delantero"}
+  ]
+}

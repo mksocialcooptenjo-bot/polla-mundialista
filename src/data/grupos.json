@@ -1,0 +1,52 @@
+{
+  "grupos": [
+    {
+      "grupo": "A",
+      "selecciones": ["México", "Sudáfrica", "Corea del Sur", "Chequia"]
+    },
+    {
+      "grupo": "B",
+      "selecciones": ["Canadá", "Bosnia-Herzegovina", "Catar", "Suiza"]
+    },
+    {
+      "grupo": "C",
+      "selecciones": ["Brasil", "Marruecos", "Haití", "Escocia"]
+    },
+    {
+      "grupo": "D",
+      "selecciones": ["Estados Unidos", "Australia", "Paraguay", "Turquía"]
+    },
+    {
+      "grupo": "E",
+      "selecciones": ["Alemania", "Curazao", "Costa de Marfil", "Ecuador"]
+    },
+    {
+      "grupo": "F",
+      "selecciones": ["Países Bajos", "Japón", "Suecia", "Túnez"]
+    },
+    {
+      "grupo": "G",
+      "selecciones": ["Bélgica", "Egipto", "Irán", "Nueva Zelanda"]
+    },
+    {
+      "grupo": "H",
+      "selecciones": ["España", "Cabo Verde", "Uruguay", "Arabia Saudita"]
+    },
+    {
+      "grupo": "I",
+      "selecciones": ["Francia", "Senegal", "Irak", "Noruega"]
+    },
+    {
+      "grupo": "J",
+      "selecciones": ["Argentina", "Argelia", "Austria", "Jordania"]
+    },
+    {
+      "grupo": "K",
+      "selecciones": ["Portugal", "República Democrática del Congo", "Uzbekistán", "Colombia"]
+    },
+    {
+      "grupo": "L",
+      "selecciones": ["Inglaterra", "Croacia", "Ghana", "Panamá"]
+    }
+  ]
+}

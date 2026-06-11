@@ -1,0 +1,31 @@
+{
+  "pais": "Noruega",
+  "jugadores": [
+    {"nombre": "Ørjan Nyland", "posicion": "Portero"},
+    {"nombre": "Egil Selvik", "posicion": "Portero"},
+    {"nombre": "Sander Tangvik", "posicion": "Portero"},
+    {"nombre": "Julian Ryerson", "posicion": "Defensor"},
+    {"nombre": "Kristoffer Ajer", "posicion": "Defensor"},
+    {"nombre": "Leo Østigård", "posicion": "Defensor"},
+    {"nombre": "David Møller Wolfe", "posicion": "Defensor"},
+    {"nombre": "Marcus Pedersen", "posicion": "Defensor"},
+    {"nombre": "Torbjørn Heggem", "posicion": "Defensor"},
+    {"nombre": "Fredrik André Bjørkan", "posicion": "Defensor"},
+    {"nombre": "Henrik Falchener", "posicion": "Defensor"},
+    {"nombre": "Sondre Langås", "posicion": "Defensor"},
+    {"nombre": "Martin Ødegaard", "posicion": "Centrocampista"},
+    {"nombre": "Sander Berge", "posicion": "Centrocampista"},
+    {"nombre": "Patrick Berg", "posicion": "Centrocampista"},
+    {"nombre": "Kristian Thorstvedt", "posicion": "Centrocampista"},
+    {"nombre": "Morten Thorsby", "posicion": "Centrocampista"},
+    {"nombre": "Thelo Aasgaard", "posicion": "Centrocampista"},
+    {"nombre": "Andreas Schjelderup", "posicion": "Centrocampista"},
+    {"nombre": "Jens Petter Hauge", "posicion": "Centrocampista"},
+    {"nombre": "Fredrik Aursnes", "posicion": "Centrocampista"},
+    {"nombre": "Oscar Bobb", "posicion": "Centrocampista"},
+    {"nombre": "Antonio Nusa", "posicion": "Centrocampista"},
+    {"nombre": "Erling Haaland", "posicion": "Delantero"},
+    {"nombre": "Alexander Sørloth", "posicion": "Delantero"},
+    {"nombre": "Jørgen Strand Larsen", "posicion": "Delantero"}
+  ]
+}

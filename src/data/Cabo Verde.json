@@ -1,0 +1,31 @@
+{
+  "pais": "Cabo Verde",
+  "jugadores": [
+    {"nombre": "Vozinha", "posicion": "Portero"},
+    {"nombre": "Marcio Rosa", "posicion": "Portero"},
+    {"nombre": "CJ dos Santos", "posicion": "Portero"},
+    {"nombre": "Steven Moreira", "posicion": "Defensor"},
+    {"nombre": "Wagner Pina", "posicion": "Defensor"},
+    {"nombre": "Joao Paulo", "posicion": "Defensor"},
+    {"nombre": "Sidny Lopes Cabral", "posicion": "Defensor"},
+    {"nombre": "Logan Costa", "posicion": "Defensor"},
+    {"nombre": "Pico", "posicion": "Defensor"},
+    {"nombre": "Kelvin Pires", "posicion": "Defensor"},
+    {"nombre": "Stopira", "posicion": "Defensor"},
+    {"nombre": "Diney", "posicion": "Defensor"},
+    {"nombre": "Jamiro Monteiro", "posicion": "Centrocampista"},
+    {"nombre": "Telmo Arcanjo", "posicion": "Centrocampista"},
+    {"nombre": "Yannick Semedo", "posicion": "Centrocampista"},
+    {"nombre": "Laros Duarte", "posicion": "Centrocampista"},
+    {"nombre": "Deroy Duarte", "posicion": "Centrocampista"},
+    {"nombre": "Kevin Pina", "posicion": "Centrocampista"},
+    {"nombre": "Ryan Mendes", "posicion": "Delantero"},
+    {"nombre": "Willy Semedo", "posicion": "Delantero"},
+    {"nombre": "Garry Rodrigues", "posicion": "Delantero"},
+    {"nombre": "Jovane Cabral", "posicion": "Delantero"},
+    {"nombre": "Nuno da Costa", "posicion": "Delantero"},
+    {"nombre": "Dailon Livramento", "posicion": "Delantero"},
+    {"nombre": "Gilson Benchimol", "posicion": "Delantero"},
+    {"nombre": "Helio Varela", "posicion": "Delantero"}
+  ]
+}

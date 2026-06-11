@@ -1,0 +1,31 @@
+{
+  "pais": "Nueva Zelanda",
+  "jugadores": [
+    {"nombre": "Max Crocombe", "posicion": "Portero"},
+    {"nombre": "Alex Paulsen", "posicion": "Portero"},
+    {"nombre": "Michael Woud", "posicion": "Portero"},
+    {"nombre": "Tim Payne", "posicion": "Defensor"},
+    {"nombre": "Francis De Vries", "posicion": "Defensor"},
+    {"nombre": "Tyler Bindon", "posicion": "Defensor"},
+    {"nombre": "Michael Boxall", "posicion": "Defensor"},
+    {"nombre": "Liberato Cacace", "posicion": "Defensor"},
+    {"nombre": "Nando Pijnaker", "posicion": "Defensor"},
+    {"nombre": "Finn Surman", "posicion": "Defensor"},
+    {"nombre": "Callan Elliot", "posicion": "Defensor"},
+    {"nombre": "Tommy Smith", "posicion": "Defensor"},
+    {"nombre": "Joe Bell", "posicion": "Centrocampista"},
+    {"nombre": "Matt Garbett", "posicion": "Centrocampista"},
+    {"nombre": "Marko Stamenic", "posicion": "Centrocampista"},
+    {"nombre": "Sarpreet Singh", "posicion": "Centrocampista"},
+    {"nombre": "Alex Rufer", "posicion": "Centrocampista"},
+    {"nombre": "Ryan Thomas", "posicion": "Centrocampista"},
+    {"nombre": "Chris Wood", "posicion": "Delantero"},
+    {"nombre": "Eli Just", "posicion": "Delantero"},
+    {"nombre": "Kosta Barbarouses", "posicion": "Delantero"},
+    {"nombre": "Ben Waine", "posicion": "Delantero"},
+    {"nombre": "Ben Old", "posicion": "Delantero"},
+    {"nombre": "Callum McCowatt", "posicion": "Delantero"},
+    {"nombre": "Jesse Randall", "posicion": "Delantero"},
+    {"nombre": "Lachlan Bayliss", "posicion": "Delantero"}
+  ]
+}

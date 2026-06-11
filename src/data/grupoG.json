@@ -1,0 +1,142 @@
+{
+  "grupo": "G",
+  "equipos": [
+    {
+      "pais": "Bélgica",
+      "jugadores": [
+        { "nombre": "Thibaut Courtois", "posicion": "Portero" },
+        { "nombre": "Senne Lammens", "posicion": "Portero" },
+        { "nombre": "Mike Penders", "posicion": "Portero" },
+
+        { "nombre": "Timothy Castagne", "posicion": "Defensor" },
+        { "nombre": "Zeno Debast", "posicion": "Defensor" },
+        { "nombre": "Maxim De Cuyper", "posicion": "Defensor" },
+        { "nombre": "Koni De Winter", "posicion": "Defensor" },
+        { "nombre": "Brandon Mechele", "posicion": "Defensor" },
+        { "nombre": "Thomas Meunier", "posicion": "Defensor" },
+        { "nombre": "Nathan Ngoy", "posicion": "Defensor" },
+        { "nombre": "Joaquin Seys", "posicion": "Defensor" },
+        { "nombre": "Arthur Theate", "posicion": "Defensor" },
+
+        { "nombre": "Kevin De Bruyne", "posicion": "Centrocampista" },
+        { "nombre": "Amadou Onana", "posicion": "Centrocampista" },
+        { "nombre": "Nicolas Raskin", "posicion": "Centrocampista" },
+        { "nombre": "Youri Tielemans", "posicion": "Centrocampista" },
+        { "nombre": "Hans Vanaken", "posicion": "Centrocampista" },
+        { "nombre": "Axel Witsel", "posicion": "Centrocampista" },
+
+        { "nombre": "Charles De Ketelaere", "posicion": "Delantero" },
+        { "nombre": "Jérémy Doku", "posicion": "Delantero" },
+        { "nombre": "Matías Fernández-Pardo", "posicion": "Delantero" },
+        { "nombre": "Romelu Lukaku", "posicion": "Delantero" },
+        { "nombre": "Dodi Lukebakio", "posicion": "Delantero" },
+        { "nombre": "Diego Moreira", "posicion": "Delantero" },
+        { "nombre": "Alexis Saelemaekers", "posicion": "Delantero" },
+        { "nombre": "Leandro Trossard", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Egipto",
+      "jugadores": [
+        { "nombre": "Mohamed El Shenawy", "posicion": "Portero" },
+        { "nombre": "Mostafa Shobeir", "posicion": "Portero" },
+        { "nombre": "El Mahdy Soliman", "posicion": "Portero" },
+        { "nombre": "Mohamed Alaa", "posicion": "Portero" },
+
+        { "nombre": "Mohamed Hany", "posicion": "Defensor" },
+        { "nombre": "Tarek Alaa", "posicion": "Defensor" },
+        { "nombre": "Hamdy Fathy", "posicion": "Defensor" },
+        { "nombre": "Ramy Rabia", "posicion": "Defensor" },
+        { "nombre": "Yasser Ibrahim", "posicion": "Defensor" },
+        { "nombre": "Hossam Abdelmaguid", "posicion": "Defensor" },
+        { "nombre": "Mohamed Abdelmonem", "posicion": "Defensor" },
+        { "nombre": "Ahmed Fatouh", "posicion": "Defensor" },
+        { "nombre": "Karim Hafez", "posicion": "Defensor" },
+
+        { "nombre": "Marwan Attia", "posicion": "Centrocampista" },
+        { "nombre": "Mohanad Lasheen", "posicion": "Centrocampista" },
+        { "nombre": "Nabil Emad", "posicion": "Centrocampista" },
+        { "nombre": "Mahmoud Sabre", "posicion": "Centrocampista" },
+        { "nombre": "Ahmed Zizo", "posicion": "Centrocampista" },
+        { "nombre": "Emam Ashour", "posicion": "Centrocampista" },
+        { "nombre": "Mostafa Ziko", "posicion": "Centrocampista" },
+        { "nombre": "Mahmoud Trezeguet", "posicion": "Centrocampista" },
+        { "nombre": "Ibrahim Adel", "posicion": "Centrocampista" },
+        { "nombre": "Haissem Hassan", "posicion": "Centrocampista" },
+
+        { "nombre": "Omar Marmoush", "posicion": "Delantero" },
+        { "nombre": "Mohamed Salah", "posicion": "Delantero" },
+        { "nombre": "Hamza Abdelkarim", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Irán",
+      "jugadores": [
+        { "nombre": "Alireza Beiranvand", "posicion": "Portero" },
+        { "nombre": "Hossein Hosseini", "posicion": "Portero" },
+        { "nombre": "Payam Niazmand", "posicion": "Portero" },
+
+        { "nombre": "Danial Eiri", "posicion": "Defensor" },
+        { "nombre": "Ehsan Hajsafi", "posicion": "Defensor" },
+        { "nombre": "Saleh Hardani", "posicion": "Defensor" },
+        { "nombre": "Hossein Kanaani", "posicion": "Defensor" },
+        { "nombre": "Shoka Khalilzadeh", "posicion": "Defensor" },
+        { "nombre": "Milad Mohammadi", "posicion": "Defensor" },
+        { "nombre": "Ali Nemati", "posicion": "Defensor" },
+        { "nombre": "Omid Noorafkan", "posicion": "Defensor" },
+        { "nombre": "Ramin Rezaeian", "posicion": "Defensor" },
+
+        { "nombre": "Rouzbeh Cheshmi", "posicion": "Centrocampista" },
+        { "nombre": "Saeid Ezatolahi", "posicion": "Centrocampista" },
+        { "nombre": "Mehdi Ghaedi", "posicion": "Centrocampista" },
+        { "nombre": "Saman Ghoddos", "posicion": "Centrocampista" },
+        { "nombre": "Mohammad Ghorbani", "posicion": "Centrocampista" },
+        { "nombre": "Alireza Jahanbakhsh", "posicion": "Centrocampista" },
+        { "nombre": "Mohammad Mohebi", "posicion": "Centrocampista" },
+        { "nombre": "Amir Mohammad Razzaghinia", "posicion": "Centrocampista" },
+        { "nombre": "Mehdi Torabi", "posicion": "Centrocampista" },
+        { "nombre": "Aria Yousefi", "posicion": "Centrocampista" },
+
+        { "nombre": "Ali Alipour", "posicion": "Delantero" },
+        { "nombre": "Dennis Dargahi", "posicion": "Delantero" },
+        { "nombre": "Amirhossein Hosseinzadeh", "posicion": "Delantero" },
+        { "nombre": "Amirhossein Mahmoudi", "posicion": "Delantero" },
+        { "nombre": "Mehdi Taremi", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Nueva Zelanda",
+      "jugadores": [
+        { "nombre": "Max Crocombe", "posicion": "Portero" },
+        { "nombre": "Alex Paulsen", "posicion": "Portero" },
+        { "nombre": "Michael Woud", "posicion": "Portero" },
+
+        { "nombre": "Tim Payne", "posicion": "Defensor" },
+        { "nombre": "Francis De Vries", "posicion": "Defensor" },
+        { "nombre": "Tyler Bindon", "posicion": "Defensor" },
+        { "nombre": "Michael Boxall", "posicion": "Defensor" },
+        { "nombre": "Liberato Cacace", "posicion": "Defensor" },
+        { "nombre": "Nando Pijnaker", "posicion": "Defensor" },
+        { "nombre": "Finn Surman", "posicion": "Defensor" },
+        { "nombre": "Callan Elliot", "posicion": "Defensor" },
+        { "nombre": "Tommy Smith", "posicion": "Defensor" },
+
+        { "nombre": "Joe Bell", "posicion": "Centrocampista" },
+        { "nombre": "Matt Garbett", "posicion": "Centrocampista" },
+        { "nombre": "Marko Stamenic", "posicion": "Centrocampista" },
+        { "nombre": "Sarpreet Singh", "posicion": "Centrocampista" },
+        { "nombre": "Alex Rufer", "posicion": "Centrocampista" },
+        { "nombre": "Ryan Thomas", "posicion": "Centrocampista" },
+
+        { "nombre": "Chris Wood", "posicion": "Delantero" },
+        { "nombre": "Eli Just", "posicion": "Delantero" },
+        { "nombre": "Kosta Barbarouses", "posicion": "Delantero" },
+        { "nombre": "Ben Waine", "posicion": "Delantero" },
+        { "nombre": "Ben Old", "posicion": "Delantero" },
+        { "nombre": "Callum McCowatt", "posicion": "Delantero" },
+        { "nombre": "Jesse Randall", "posicion": "Delantero" },
+        { "nombre": "Lachlan Bayliss", "posicion": "Delantero" }
+      ]
+    }
+  ]
+}

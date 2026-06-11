@@ -1,0 +1,141 @@
+{
+  "grupo": "H",
+  "equipos": [
+    {
+      "pais": "España",
+      "jugadores": [
+        { "nombre": "Unai Simón", "posicion": "Portero" },
+        { "nombre": "David Raya", "posicion": "Portero" },
+        { "nombre": "Joan García", "posicion": "Portero" },
+
+        { "nombre": "Marc Cucurella", "posicion": "Defensor" },
+        { "nombre": "Pau Cubarsí", "posicion": "Defensor" },
+        { "nombre": "Aymeric Laporte", "posicion": "Defensor" },
+        { "nombre": "Álex Grimaldo", "posicion": "Defensor" },
+        { "nombre": "Pedro Porro", "posicion": "Defensor" },
+        { "nombre": "Eric García", "posicion": "Defensor" },
+        { "nombre": "Marcos Llorente", "posicion": "Defensor" },
+        { "nombre": "Marc Pubill", "posicion": "Defensor" },
+
+        { "nombre": "Gavi", "posicion": "Centrocampista" },
+        { "nombre": "Rodri", "posicion": "Centrocampista" },
+        { "nombre": "Pedri", "posicion": "Centrocampista" },
+        { "nombre": "Martín Zubimendi", "posicion": "Centrocampista" },
+        { "nombre": "Fabián Ruiz", "posicion": "Centrocampista" },
+        { "nombre": "Álex Baena", "posicion": "Centrocampista" },
+        { "nombre": "Mikel Merino", "posicion": "Centrocampista" },
+
+        { "nombre": "Lamine Yamal", "posicion": "Delantero" },
+        { "nombre": "Nico Williams", "posicion": "Delantero" },
+        { "nombre": "Dani Olmo", "posicion": "Delantero" },
+        { "nombre": "Ferran Torres", "posicion": "Delantero" },
+        { "nombre": "Mikel Oyarzabal", "posicion": "Delantero" },
+        { "nombre": "Yéremy Pino", "posicion": "Delantero" },
+        { "nombre": "Borja Iglesias", "posicion": "Delantero" },
+        { "nombre": "Víctor Muñoz", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Cabo Verde",
+      "jugadores": [
+        { "nombre": "Vozinha", "posicion": "Portero" },
+        { "nombre": "Marcio Rosa", "posicion": "Portero" },
+        { "nombre": "CJ dos Santos", "posicion": "Portero" },
+
+        { "nombre": "Steven Moreira", "posicion": "Defensor" },
+        { "nombre": "Wagner Pina", "posicion": "Defensor" },
+        { "nombre": "Joao Paulo", "posicion": "Defensor" },
+        { "nombre": "Sidny Lopes Cabral", "posicion": "Defensor" },
+        { "nombre": "Logan Costa", "posicion": "Defensor" },
+        { "nombre": "Pico", "posicion": "Defensor" },
+        { "nombre": "Kelvin Pires", "posicion": "Defensor" },
+        { "nombre": "Stopira", "posicion": "Defensor" },
+        { "nombre": "Diney", "posicion": "Defensor" },
+
+        { "nombre": "Jamiro Monteiro", "posicion": "Centrocampista" },
+        { "nombre": "Telmo Arcanjo", "posicion": "Centrocampista" },
+        { "nombre": "Yannick Semedo", "posicion": "Centrocampista" },
+        { "nombre": "Laros Duarte", "posicion": "Centrocampista" },
+        { "nombre": "Deroy Duarte", "posicion": "Centrocampista" },
+        { "nombre": "Kevin Pina", "posicion": "Centrocampista" },
+
+        { "nombre": "Ryan Mendes", "posicion": "Delantero" },
+        { "nombre": "Willy Semedo", "posicion": "Delantero" },
+        { "nombre": "Garry Rodrigues", "posicion": "Delantero" },
+        { "nombre": "Jovane Cabral", "posicion": "Delantero" },
+        { "nombre": "Nuno da Costa", "posicion": "Delantero" },
+        { "nombre": "Dailon Livramento", "posicion": "Delantero" },
+        { "nombre": "Gilson Benchimol", "posicion": "Delantero" },
+        { "nombre": "Helio Varela", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Uruguay",
+      "jugadores": [
+        { "nombre": "Fernando Muslera", "posicion": "Portero" },
+        { "nombre": "Sergio Rochet", "posicion": "Portero" },
+        { "nombre": "Santiago Mele", "posicion": "Portero" },
+
+        { "nombre": "Ronald Araújo", "posicion": "Defensor" },
+        { "nombre": "José María Giménez", "posicion": "Defensor" },
+        { "nombre": "Santiago Bueno", "posicion": "Defensor" },
+        { "nombre": "Sebastián Cáceres", "posicion": "Defensor" },
+        { "nombre": "Mathías Olivera", "posicion": "Defensor" },
+        { "nombre": "Guillermo Varela", "posicion": "Defensor" },
+        { "nombre": "Matías Viña", "posicion": "Defensor" },
+        { "nombre": "Joaquín Piquerez", "posicion": "Defensor" },
+        { "nombre": "Juan Manuel Sanabria", "posicion": "Defensor" },
+
+        { "nombre": "Federico Valverde", "posicion": "Centrocampista" },
+        { "nombre": "Rodrigo Bentancur", "posicion": "Centrocampista" },
+        { "nombre": "Manuel Ugarte", "posicion": "Centrocampista" },
+        { "nombre": "Emiliano Martínez", "posicion": "Centrocampista" },
+        { "nombre": "Rodrigo Zalazar", "posicion": "Centrocampista" },
+        { "nombre": "Giorgian De Arrascaeta", "posicion": "Centrocampista" },
+        { "nombre": "Nicolás De La Cruz", "posicion": "Centrocampista" },
+        { "nombre": "Agustín Canobbio", "posicion": "Centrocampista" },
+        { "nombre": "Maximiliano Araújo", "posicion": "Centrocampista" },
+        { "nombre": "Brian Rodríguez", "posicion": "Centrocampista" },
+        { "nombre": "Facundo Pellistri", "posicion": "Centrocampista" },
+
+        { "nombre": "Darwin Núñez", "posicion": "Delantero" },
+        { "nombre": "Federico Viñas", "posicion": "Delantero" },
+        { "nombre": "Rodrigo Aguirre", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Arabia Saudita",
+      "jugadores": [
+        { "nombre": "Mohammed Al Owais", "posicion": "Portero" },
+        { "nombre": "Nawaf Al Aqidi", "posicion": "Portero" },
+        { "nombre": "Ahmed Al Kassar", "posicion": "Portero" },
+
+        { "nombre": "Abdulelah Al Amri", "posicion": "Defensor" },
+        { "nombre": "Hassan Tambakti", "posicion": "Defensor" },
+        { "nombre": "Jehad Thikri", "posicion": "Defensor" },
+        { "nombre": "Ali Lajami", "posicion": "Defensor" },
+        { "nombre": "Hassan Kadesh", "posicion": "Defensor" },
+        { "nombre": "Saud Abdulhamid", "posicion": "Defensor" },
+        { "nombre": "Mohammed Abu Al Shamat", "posicion": "Defensor" },
+        { "nombre": "Ali Majrashi", "posicion": "Defensor" },
+        { "nombre": "Moteb Al Harbi", "posicion": "Defensor" },
+        { "nombre": "Nawaf Boushal", "posicion": "Defensor" },
+        { "nombre": "Sultan Al-Ghannam", "posicion": "Defensor" },
+
+        { "nombre": "Mohammed Kanno", "posicion": "Centrocampista" },
+        { "nombre": "Abdullah Al Khaibari", "posicion": "Centrocampista" },
+        { "nombre": "Ziyad Al Johani", "posicion": "Centrocampista" },
+        { "nombre": "Nasser Al Dawsari", "posicion": "Centrocampista" },
+        { "nombre": "Musab Al Juwayr", "posicion": "Centrocampista" },
+        { "nombre": "Alaa Al Hajji", "posicion": "Centrocampista" },
+        { "nombre": "Salem Al Dawsari", "posicion": "Centrocampista" },
+        { "nombre": "Khalid Al Ghannam", "posicion": "Centrocampista" },
+        { "nombre": "Ayman Yahya", "posicion": "Centrocampista" },
+
+        { "nombre": "Firas Al Buraikan", "posicion": "Delantero" },
+        { "nombre": "Saleh Al Shehri", "posicion": "Delantero" },
+        { "nombre": "Abdullah Al Hamdan", "posicion": "Delantero" }
+      ]
+    }
+  ]
+}

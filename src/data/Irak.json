@@ -1,0 +1,31 @@
+{
+  "pais": "Irak",
+  "jugadores": [
+    {"nombre": "Fahad Talib", "posicion": "Portero"},
+    {"nombre": "Jalal Hassan", "posicion": "Portero"},
+    {"nombre": "Ahmed Basil", "posicion": "Portero"},
+    {"nombre": "Hussein Ali", "posicion": "Defensor"},
+    {"nombre": "Manaf Younis", "posicion": "Defensor"},
+    {"nombre": "Zaid Tahseen", "posicion": "Defensor"},
+    {"nombre": "Rebin Sulaka", "posicion": "Defensor"},
+    {"nombre": "Akam Hashem", "posicion": "Defensor"},
+    {"nombre": "Merchas Doski", "posicion": "Defensor"},
+    {"nombre": "Ahmed Yahya", "posicion": "Defensor"},
+    {"nombre": "Zaid Ismail", "posicion": "Defensor"},
+    {"nombre": "Frans Putros", "posicion": "Defensor"},
+    {"nombre": "Mustafa Saadoon", "posicion": "Defensor"},
+    {"nombre": "Amir Al-Ammari", "posicion": "Centrocampista"},
+    {"nombre": "Kevin Yakob", "posicion": "Centrocampista"},
+    {"nombre": "Zidane Iqbal", "posicion": "Centrocampista"},
+    {"nombre": "Aimar Sher", "posicion": "Centrocampista"},
+    {"nombre": "Ibrahim Bayesh", "posicion": "Centrocampista"},
+    {"nombre": "Ahmed Qasim", "posicion": "Centrocampista"},
+    {"nombre": "Youssef Amyn", "posicion": "Centrocampista"},
+    {"nombre": "Marko Farji", "posicion": "Centrocampista"},
+    {"nombre": "Ali Jasim", "posicion": "Delantero"},
+    {"nombre": "Ali Al-Hamadi", "posicion": "Delantero"},
+    {"nombre": "Ali Yousef", "posicion": "Delantero"},
+    {"nombre": "Aymen Hussein", "posicion": "Delantero"},
+    {"nombre": "Mohanad Ali", "posicion": "Delantero"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pais": "Marruecos",
+  "jugadores": [
+    {"nombre": "Yassine Bounou", "posicion": "Portero"},
+    {"nombre": "Munir El Kajoui", "posicion": "Portero"},
+    {"nombre": "Reda Tagnaouti", "posicion": "Portero"},
+    {"nombre": "Noussair Mazraoui", "posicion": "Defensor"},
+    {"nombre": "Anass Salah-Eddine", "posicion": "Defensor"},
+    {"nombre": "Youssef Belammari", "posicion": "Defensor"},
+    {"nombre": "Achraf Hakimi", "posicion": "Defensor"},
+    {"nombre": "Zakaria El Ouahdi", "posicion": "Defensor"},
+    {"nombre": "Chadi Riad", "posicion": "Defensor"},
+    {"nombre": "Nayef Aguerd", "posicion": "Defensor"},
+    {"nombre": "Redouane Halhal", "posicion": "Defensor"},
+    {"nombre": "Issa Diop", "posicion": "Defensor"},
+    {"nombre": "Samir El Mourabet", "posicion": "Centrocampista"},
+    {"nombre": "Ayyoub Bouaddi", "posicion": "Centrocampista"},
+    {"nombre": "Neil El Aynaoui", "posicion": "Centrocampista"},
+    {"nombre": "Sofyan Amrabat", "posicion": "Centrocampista"},
+    {"nombre": "Azzedine Ounahi", "posicion": "Centrocampista"},
+    {"nombre": "Bilal El Khannouss", "posicion": "Centrocampista"},
+    {"nombre": "Ismael Saibari", "posicion": "Centrocampista"},
+    {"nombre": "Abde Ezzalzouli", "posicion": "Delantero"},
+    {"nombre": "Chemsdine Talbi", "posicion": "Delantero"},
+    {"nombre": "Soufiane Rahimi", "posicion": "Delantero"},
+    {"nombre": "Ayoub El Kaabi", "posicion": "Delantero"},
+    {"nombre": "Brahim Díaz", "posicion": "Delantero"},
+    {"nombre": "Gessime Yassine", "posicion": "Delantero"},
+    {"nombre": "Ayoube Amaimouni", "posicion": "Delantero"}
+  ]
+}

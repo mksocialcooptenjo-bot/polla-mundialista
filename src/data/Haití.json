@@ -1,0 +1,31 @@
+{
+  "pais": "Haití",
+  "jugadores": [
+    {"nombre": "Johny Placide", "posicion": "Portero"},
+    {"nombre": "Alexandre Pierre", "posicion": "Portero"},
+    {"nombre": "Josue Duverger", "posicion": "Portero"},
+    {"nombre": "Carlens Arcus", "posicion": "Defensor"},
+    {"nombre": "Wilguens Paugain", "posicion": "Defensor"},
+    {"nombre": "Duke Lacroix", "posicion": "Defensor"},
+    {"nombre": "Martin Expérience", "posicion": "Defensor"},
+    {"nombre": "Jean-Kévin Duverne", "posicion": "Defensor"},
+    {"nombre": "Ricardo Adé", "posicion": "Defensor"},
+    {"nombre": "Hannes Delcroix", "posicion": "Defensor"},
+    {"nombre": "Keeto Thermoncy", "posicion": "Defensor"},
+    {"nombre": "Carl Fred Sainté", "posicion": "Centrocampista"},
+    {"nombre": "Leverton Pierre", "posicion": "Centrocampista"},
+    {"nombre": "Danley Jean Jacques", "posicion": "Centrocampista"},
+    {"nombre": "Jean-Ricner Bellegarde", "posicion": "Centrocampista"},
+    {"nombre": "Woodensky Pierre", "posicion": "Centrocampista"},
+    {"nombre": "Dominique Simon", "posicion": "Centrocampista"},
+    {"nombre": "Don Deedson Louicius", "posicion": "Delantero"},
+    {"nombre": "Josué Casimir", "posicion": "Delantero"},
+    {"nombre": "Derrick Etienne", "posicion": "Delantero"},
+    {"nombre": "Ruben Providence", "posicion": "Delantero"},
+    {"nombre": "Duckens Nazon", "posicion": "Delantero"},
+    {"nombre": "Frantzdy Pierrot", "posicion": "Delantero"},
+    {"nombre": "Wilson Isidor", "posicion": "Delantero"},
+    {"nombre": "Yassin Fortuné", "posicion": "Delantero"},
+    {"nombre": "Lenny Joseph", "posicion": "Delantero"}
+  ]
+}

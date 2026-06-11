@@ -1,0 +1,31 @@
+{
+  "pais": "Argentina",
+  "jugadores": [
+    {"nombre": "Emiliano Martínez", "posicion": "Portero"},
+    {"nombre": "Gerónimo Rulli", "posicion": "Portero"},
+    {"nombre": "Juan Musso", "posicion": "Portero"},
+    {"nombre": "Gonzalo Montiel", "posicion": "Defensor"},
+    {"nombre": "Nahuel Molina", "posicion": "Defensor"},
+    {"nombre": "Lisandro Martínez", "posicion": "Defensor"},
+    {"nombre": "Nicolás Otamendi", "posicion": "Defensor"},
+    {"nombre": "Leonardo Balerdi", "posicion": "Defensor"},
+    {"nombre": "Cristian Romero", "posicion": "Defensor"},
+    {"nombre": "Facundo Medina", "posicion": "Defensor"},
+    {"nombre": "Nicolás Tagliafico", "posicion": "Defensor"},
+    {"nombre": "Leandro Paredes", "posicion": "Centrocampista"},
+    {"nombre": "Rodrigo De Paul", "posicion": "Centrocampista"},
+    {"nombre": "Exequiel Palacios", "posicion": "Centrocampista"},
+    {"nombre": "Enzo Fernández", "posicion": "Centrocampista"},
+    {"nombre": "Alexis Mac Allister", "posicion": "Centrocampista"},
+    {"nombre": "Giovani Lo Celso", "posicion": "Centrocampista"},
+    {"nombre": "Valentín Barco", "posicion": "Centrocampista"},
+    {"nombre": "Lionel Messi", "posicion": "Delantero"},
+    {"nombre": "Nico Paz", "posicion": "Delantero"},
+    {"nombre": "Thiago Almada", "posicion": "Delantero"},
+    {"nombre": "Nicolás González", "posicion": "Delantero"},
+    {"nombre": "Giuliano Simeone", "posicion": "Delantero"},
+    {"nombre": "Lautaro Martínez", "posicion": "Delantero"},
+    {"nombre": "José Manuel López", "posicion": "Delantero"},
+    {"nombre": "Julián Álvarez", "posicion": "Delantero"}
+  ]
+}

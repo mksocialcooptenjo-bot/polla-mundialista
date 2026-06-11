@@ -1,0 +1,31 @@
+{
+  "pais": "Curazao",
+  "jugadores": [
+    {"nombre": "Eloy Room", "posicion": "Portero"},
+    {"nombre": "Tyrick Bodak", "posicion": "Portero"},
+    {"nombre": "Trevor Doornbusch", "posicion": "Portero"},
+    {"nombre": "Riechedly Bazoer", "posicion": "Defensor"},
+    {"nombre": "Joshua Brenet", "posicion": "Defensor"},
+    {"nombre": "Roshon van Eijma", "posicion": "Defensor"},
+    {"nombre": "Sherel Floranus", "posicion": "Defensor"},
+    {"nombre": "Deveron Fonville", "posicion": "Defensor"},
+    {"nombre": "Jurien Gaari", "posicion": "Defensor"},
+    {"nombre": "Armando Obispo", "posicion": "Defensor"},
+    {"nombre": "Shurandy Sambo", "posicion": "Defensor"},
+    {"nombre": "Juninho Bacuna", "posicion": "Centrocampista"},
+    {"nombre": "Leandro Bacuna", "posicion": "Centrocampista"},
+    {"nombre": "Livano Comenencia", "posicion": "Centrocampista"},
+    {"nombre": "Kevin Felida", "posicion": "Centrocampista"},
+    {"nombre": "Ar'jany Martha", "posicion": "Centrocampista"},
+    {"nombre": "Tyrese Noslin", "posicion": "Centrocampista"},
+    {"nombre": "Godfried Roemeratoe", "posicion": "Centrocampista"},
+    {"nombre": "Jeremy Antonisse", "posicion": "Delantero"},
+    {"nombre": "Tahith Chong", "posicion": "Delantero"},
+    {"nombre": "Kenji Gorre", "posicion": "Delantero"},
+    {"nombre": "Sontje Hansen", "posicion": "Delantero"},
+    {"nombre": "Gervane Kastaneer", "posicion": "Delantero"},
+    {"nombre": "Brandley Kuwas", "posicion": "Delantero"},
+    {"nombre": "Jurgen Locadia", "posicion": "Delantero"},
+    {"nombre": "Jearl Margaritha", "posicion": "Delantero"}
+  ]
+}

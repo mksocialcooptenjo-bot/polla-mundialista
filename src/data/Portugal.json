@@ -1,0 +1,32 @@
+{
+  "pais": "Portugal",
+  "jugadores": [
+    {"nombre": "Diogo Costa", "posicion": "Portero"},
+    {"nombre": "José Sá", "posicion": "Portero"},
+    {"nombre": "Rui Silva", "posicion": "Portero"},
+    {"nombre": "Ricardo Velho", "posicion": "Portero"},
+    {"nombre": "Rúben Dias", "posicion": "Defensor"},
+    {"nombre": "João Cancelo", "posicion": "Defensor"},
+    {"nombre": "Diogo Dalot", "posicion": "Defensor"},
+    {"nombre": "Nuno Mendes", "posicion": "Defensor"},
+    {"nombre": "Nélson Semedo", "posicion": "Defensor"},
+    {"nombre": "Matheus Nunes", "posicion": "Defensor"},
+    {"nombre": "Gonçalo Inácio", "posicion": "Defensor"},
+    {"nombre": "Renato Veiga", "posicion": "Defensor"},
+    {"nombre": "Tomás Araújo", "posicion": "Defensor"},
+    {"nombre": "Bruno Fernandes", "posicion": "Centrocampista"},
+    {"nombre": "Bernardo Silva", "posicion": "Centrocampista"},
+    {"nombre": "Vitinha", "posicion": "Centrocampista"},
+    {"nombre": "João Neves", "posicion": "Centrocampista"},
+    {"nombre": "Rúben Neves", "posicion": "Centrocampista"},
+    {"nombre": "Samú Costa", "posicion": "Centrocampista"},
+    {"nombre": "Cristiano Ronaldo", "posicion": "Delantero"},
+    {"nombre": "Rafael Leão", "posicion": "Delantero"},
+    {"nombre": "João Félix", "posicion": "Delantero"},
+    {"nombre": "Gonçalo Ramos", "posicion": "Delantero"},
+    {"nombre": "Pedro Neto", "posicion": "Delantero"},
+    {"nombre": "Francisco Conceição", "posicion": "Delantero"},
+    {"nombre": "Gonçalo Guedes", "posicion": "Delantero"},
+    {"nombre": "Francisco Trincão", "posicion": "Delantero"}
+  ]
+}

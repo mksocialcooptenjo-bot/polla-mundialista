@@ -1,0 +1,141 @@
+{
+  "grupo": "L",
+  "equipos": [
+    {
+      "pais": "Inglaterra",
+      "jugadores": [
+        { "nombre": "Jordan Pickford", "posicion": "Portero" },
+        { "nombre": "Dean Henderson", "posicion": "Portero" },
+        { "nombre": "James Trafford", "posicion": "Portero" },
+
+        { "nombre": "Reece James", "posicion": "Defensor" },
+        { "nombre": "Ezri Konsa", "posicion": "Defensor" },
+        { "nombre": "Jarell Quansah", "posicion": "Defensor" },
+        { "nombre": "John Stones", "posicion": "Defensor" },
+        { "nombre": "Marc Guéhi", "posicion": "Defensor" },
+        { "nombre": "Dan Burn", "posicion": "Defensor" },
+        { "nombre": "Nico O'Reilly", "posicion": "Defensor" },
+        { "nombre": "Djed Spence", "posicion": "Defensor" },
+        { "nombre": "Tino Livramento", "posicion": "Defensor" },
+
+        { "nombre": "Declan Rice", "posicion": "Centrocampista" },
+        { "nombre": "Elliot Anderson", "posicion": "Centrocampista" },
+        { "nombre": "Kobbie Mainoo", "posicion": "Centrocampista" },
+        { "nombre": "Jordan Henderson", "posicion": "Centrocampista" },
+        { "nombre": "Morgan Rogers", "posicion": "Centrocampista" },
+        { "nombre": "Jude Bellingham", "posicion": "Centrocampista" },
+        { "nombre": "Eberechi Eze", "posicion": "Centrocampista" },
+
+        { "nombre": "Harry Kane", "posicion": "Delantero" },
+        { "nombre": "Ivan Toney", "posicion": "Delantero" },
+        { "nombre": "Ollie Watkins", "posicion": "Delantero" },
+        { "nombre": "Bukayo Saka", "posicion": "Delantero" },
+        { "nombre": "Marcus Rashford", "posicion": "Delantero" },
+        { "nombre": "Anthony Gordon", "posicion": "Delantero" },
+        { "nombre": "Noni Madueke", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Croacia",
+      "jugadores": [
+        { "nombre": "Dominik Livakovic", "posicion": "Portero" },
+        { "nombre": "Dominik Kotarski", "posicion": "Portero" },
+        { "nombre": "Ivor Pandur", "posicion": "Portero" },
+
+        { "nombre": "Josko Gvardiol", "posicion": "Defensor" },
+        { "nombre": "Duje Caleta-Car", "posicion": "Defensor" },
+        { "nombre": "Josip Sutalo", "posicion": "Defensor" },
+        { "nombre": "Josip Stanisic", "posicion": "Defensor" },
+        { "nombre": "Marin Pongracic", "posicion": "Defensor" },
+        { "nombre": "Martin Erlic", "posicion": "Defensor" },
+        { "nombre": "Luka Vuskovic", "posicion": "Defensor" },
+
+        { "nombre": "Luka Modric", "posicion": "Centrocampista" },
+        { "nombre": "Mateo Kovacic", "posicion": "Centrocampista" },
+        { "nombre": "Mario Pasalic", "posicion": "Centrocampista" },
+        { "nombre": "Nikola Vlasic", "posicion": "Centrocampista" },
+        { "nombre": "Luka Sucic", "posicion": "Centrocampista" },
+        { "nombre": "Martin Baturina", "posicion": "Centrocampista" },
+        { "nombre": "Kristijan Jakic", "posicion": "Centrocampista" },
+        { "nombre": "Petar Sucic", "posicion": "Centrocampista" },
+        { "nombre": "Nikola Moro", "posicion": "Centrocampista" },
+        { "nombre": "Toni Fruk", "posicion": "Centrocampista" },
+
+        { "nombre": "Ivan Perisic", "posicion": "Delantero" },
+        { "nombre": "Andrej Kramaric", "posicion": "Delantero" },
+        { "nombre": "Ante Budimir", "posicion": "Delantero" },
+        { "nombre": "Marco Pasalic", "posicion": "Delantero" },
+        { "nombre": "Petar Musa", "posicion": "Delantero" },
+        { "nombre": "Igor Matanovic", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Ghana",
+      "jugadores": [
+        { "nombre": "Benjamin Asare", "posicion": "Portero" },
+        { "nombre": "Lawrence Ati-Zigi", "posicion": "Portero" },
+        { "nombre": "Joseph Anang", "posicion": "Portero" },
+
+        { "nombre": "Baba Abdul Rahman", "posicion": "Defensor" },
+        { "nombre": "Gideon Mensah", "posicion": "Defensor" },
+        { "nombre": "Marvin Senaya", "posicion": "Defensor" },
+        { "nombre": "Alidu Seidu", "posicion": "Defensor" },
+        { "nombre": "Abdul Mumin", "posicion": "Defensor" },
+        { "nombre": "Jerome Opoku", "posicion": "Defensor" },
+        { "nombre": "Jonas Adjetey", "posicion": "Defensor" },
+        { "nombre": "Kojo Oppong Peprah", "posicion": "Defensor" },
+        { "nombre": "Derrick Luckassen", "posicion": "Defensor" },
+
+        { "nombre": "Elisha Owusu", "posicion": "Centrocampista" },
+        { "nombre": "Thomas Partey", "posicion": "Centrocampista" },
+        { "nombre": "Kwasi Sibo", "posicion": "Centrocampista" },
+        { "nombre": "Augustine Boakye", "posicion": "Centrocampista" },
+        { "nombre": "Caleb Yirenkyi", "posicion": "Centrocampista" },
+        { "nombre": "Abdul Fatawu Issahaku", "posicion": "Centrocampista" },
+
+        { "nombre": "Kamal Deen Sulemana", "posicion": "Delantero" },
+        { "nombre": "Christopher Bonsu Baah", "posicion": "Delantero" },
+        { "nombre": "Ernest Nuamah", "posicion": "Delantero" },
+        { "nombre": "Antoine Semenyo", "posicion": "Delantero" },
+        { "nombre": "Brandon Thomas-Asante", "posicion": "Delantero" },
+        { "nombre": "Prince Kwabena Adu", "posicion": "Delantero" },
+        { "nombre": "Iñaki Williams", "posicion": "Delantero" },
+        { "nombre": "Jordan Ayew", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Panamá",
+      "jugadores": [
+        { "nombre": "Orlando Mosquera", "posicion": "Portero" },
+        { "nombre": "Luis Mejía", "posicion": "Portero" },
+        { "nombre": "César Samudio", "posicion": "Portero" },
+
+        { "nombre": "César Blackman", "posicion": "Defensor" },
+        { "nombre": "Jorge Gutiérrez", "posicion": "Defensor" },
+        { "nombre": "Amir Murillo", "posicion": "Defensor" },
+        { "nombre": "Fidel Escobar", "posicion": "Defensor" },
+        { "nombre": "Andrés Andrade", "posicion": "Defensor" },
+        { "nombre": "Edgardo Fariña", "posicion": "Defensor" },
+        { "nombre": "José Córdoba", "posicion": "Defensor" },
+        { "nombre": "Éric Davis", "posicion": "Defensor" },
+        { "nombre": "Jiovany Ramos", "posicion": "Defensor" },
+        { "nombre": "Roderick Miller", "posicion": "Defensor" },
+
+        { "nombre": "Aníbal Godoy", "posicion": "Centrocampista" },
+        { "nombre": "Adalberto Carrasquilla", "posicion": "Centrocampista" },
+        { "nombre": "Carlos Harvey", "posicion": "Centrocampista" },
+        { "nombre": "Cristian Martínez", "posicion": "Centrocampista" },
+        { "nombre": "José Luis Rodríguez", "posicion": "Centrocampista" },
+        { "nombre": "César Yanis", "posicion": "Centrocampista" },
+        { "nombre": "Yoel Bárcenas", "posicion": "Centrocampista" },
+        { "nombre": "Alberto Quintero", "posicion": "Centrocampista" },
+        { "nombre": "Azarias Londoño", "posicion": "Centrocampista" },
+
+        { "nombre": "Ismael Díaz", "posicion": "Delantero" },
+        { "nombre": "Cecilio Waterman", "posicion": "Delantero" },
+        { "nombre": "José Fajardo", "posicion": "Delantero" },
+        { "nombre": "Tomás Rodríguez", "posicion": "Delantero" }
+      ]
+    }
+  ]
+}

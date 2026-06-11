@@ -1,0 +1,31 @@
+{
+  "pais": "Catar",
+  "jugadores": [
+    {"nombre": "Salah Zakaria", "posicion": "Portero"},
+    {"nombre": "Meshaal Barsham", "posicion": "Portero"},
+    {"nombre": "Mahmoud Abunada", "posicion": "Portero"},
+    {"nombre": "Boualem Khoukhi", "posicion": "Defensor"},
+    {"nombre": "Pedro Miguel", "posicion": "Defensor"},
+    {"nombre": "Sultan Al Brake", "posicion": "Defensor"},
+    {"nombre": "Al-Hashmi Al-Hussain", "posicion": "Defensor"},
+    {"nombre": "Ayoub Al-Alawi", "posicion": "Defensor"},
+    {"nombre": "Issa Laye", "posicion": "Defensor"},
+    {"nombre": "Lucas Mendes", "posicion": "Defensor"},
+    {"nombre": "Homam Al-Amin", "posicion": "Defensor"},
+    {"nombre": "Ahmed Fathi", "posicion": "Centrocampista"},
+    {"nombre": "Jassim Gaber", "posicion": "Centrocampista"},
+    {"nombre": "Assim Madibo", "posicion": "Centrocampista"},
+    {"nombre": "Abdulaziz Hatem", "posicion": "Centrocampista"},
+    {"nombre": "Karim Boudiaf", "posicion": "Centrocampista"},
+    {"nombre": "Mohammed Mannai", "posicion": "Centrocampista"},
+    {"nombre": "Almoez Ali", "posicion": "Delantero"},
+    {"nombre": "Akram Afif", "posicion": "Delantero"},
+    {"nombre": "Tahsin Mohammed", "posicion": "Delantero"},
+    {"nombre": "Edmílson Junior", "posicion": "Delantero"},
+    {"nombre": "Ahmed Al-Ganehi", "posicion": "Delantero"},
+    {"nombre": "Ahmed Alaa", "posicion": "Delantero"},
+    {"nombre": "Hassan Al-Haydos", "posicion": "Delantero"},
+    {"nombre": "Mohammed Muntari", "posicion": "Delantero"},
+    {"nombre": "Yusuf Abdurisag", "posicion": "Delantero"}
+  ]
+}

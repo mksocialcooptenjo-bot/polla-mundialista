@@ -1,0 +1,142 @@
+{
+  "grupo": "K",
+  "equipos": [
+    {
+      "pais": "Portugal",
+      "jugadores": [
+        { "nombre": "Diogo Costa", "posicion": "Portero" },
+        { "nombre": "José Sá", "posicion": "Portero" },
+        { "nombre": "Rui Silva", "posicion": "Portero" },
+        { "nombre": "Ricardo Velho", "posicion": "Portero" },
+
+        { "nombre": "Rúben Dias", "posicion": "Defensor" },
+        { "nombre": "João Cancelo", "posicion": "Defensor" },
+        { "nombre": "Diogo Dalot", "posicion": "Defensor" },
+        { "nombre": "Nuno Mendes", "posicion": "Defensor" },
+        { "nombre": "Nélson Semedo", "posicion": "Defensor" },
+        { "nombre": "Matheus Nunes", "posicion": "Defensor" },
+        { "nombre": "Gonçalo Inácio", "posicion": "Defensor" },
+        { "nombre": "Renato Veiga", "posicion": "Defensor" },
+        { "nombre": "Tomás Araújo", "posicion": "Defensor" },
+
+        { "nombre": "Bruno Fernandes", "posicion": "Centrocampista" },
+        { "nombre": "Bernardo Silva", "posicion": "Centrocampista" },
+        { "nombre": "Vitinha", "posicion": "Centrocampista" },
+        { "nombre": "João Neves", "posicion": "Centrocampista" },
+        { "nombre": "Rúben Neves", "posicion": "Centrocampista" },
+        { "nombre": "Samú Costa", "posicion": "Centrocampista" },
+
+        { "nombre": "Cristiano Ronaldo", "posicion": "Delantero" },
+        { "nombre": "Rafael Leão", "posicion": "Delantero" },
+        { "nombre": "João Félix", "posicion": "Delantero" },
+        { "nombre": "Gonçalo Ramos", "posicion": "Delantero" },
+        { "nombre": "Pedro Neto", "posicion": "Delantero" },
+        { "nombre": "Francisco Conceição", "posicion": "Delantero" },
+        { "nombre": "Gonçalo Guedes", "posicion": "Delantero" },
+        { "nombre": "Francisco Trincão", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "República Democrática del Congo",
+      "jugadores": [
+        { "nombre": "Lionel Mpasi", "posicion": "Portero" },
+        { "nombre": "Timothy Fayulu", "posicion": "Portero" },
+        { "nombre": "Matthieu Epolo", "posicion": "Portero" },
+
+        { "nombre": "Chancel Mbemba", "posicion": "Defensor" },
+        { "nombre": "Axel Tuanzebe", "posicion": "Defensor" },
+        { "nombre": "Arthur Masuaku", "posicion": "Defensor" },
+        { "nombre": "Gedeon Kalulu", "posicion": "Defensor" },
+        { "nombre": "Joris Kayembe", "posicion": "Defensor" },
+        { "nombre": "Aaron Wan-Bissaka", "posicion": "Defensor" },
+        { "nombre": "Aaron Tshibola", "posicion": "Defensor" },
+        { "nombre": "Steve Kapuadi", "posicion": "Defensor" },
+        { "nombre": "Dylan Batubinsika", "posicion": "Defensor" },
+
+        { "nombre": "Noah Sadiki", "posicion": "Centrocampista" },
+        { "nombre": "Charles Pickel", "posicion": "Centrocampista" },
+        { "nombre": "Edo Kayembe", "posicion": "Centrocampista" },
+        { "nombre": "Samuel Moutoussamy", "posicion": "Centrocampista" },
+        { "nombre": "Ngal'ayel Mukau", "posicion": "Centrocampista" },
+        { "nombre": "Nathanaël Mbuku", "posicion": "Centrocampista" },
+        { "nombre": "Meschak Elia", "posicion": "Centrocampista" },
+        { "nombre": "Brian Cipenga", "posicion": "Centrocampista" },
+        { "nombre": "Gaël Kakuta", "posicion": "Centrocampista" },
+        { "nombre": "Théo Bongonda", "posicion": "Centrocampista" }
+      ,
+        { "nombre": "Simon Banza", "posicion": "Delantero" },
+        { "nombre": "Yoane Wissa", "posicion": "Delantero" },
+        { "nombre": "Fiston Mayele", "posicion": "Delantero" },
+        { "nombre": "Cédric Bakambu", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Uzbekistán",
+      "jugadores": [
+        { "nombre": "Utkir Yusupov", "posicion": "Portero" },
+        { "nombre": "Botirali Ergashev", "posicion": "Portero" },
+        { "nombre": "Abduvokhid Nematov", "posicion": "Portero" },
+
+        { "nombre": "Avazbek Ulmasaliev", "posicion": "Defensor" },
+        { "nombre": "Jakhongir Urozov", "posicion": "Defensor" },
+        { "nombre": "Rustamjon Ashurmatov", "posicion": "Defensor" },
+        { "nombre": "Umarbek Eshmurodov", "posicion": "Defensor" },
+        { "nombre": "Abdukodir Khusanov", "posicion": "Defensor" },
+        { "nombre": "Abdulla Abdullaev", "posicion": "Defensor" },
+        { "nombre": "Farrukh Sayfiev", "posicion": "Defensor" },
+        { "nombre": "Khojiakbar Alijonov", "posicion": "Defensor" },
+        { "nombre": "Sherzod Nasrullaev", "posicion": "Defensor" },
+        { "nombre": "Behruz Karimov", "posicion": "Defensor" },
+
+        { "nombre": "Sherzod Esanov", "posicion": "Centrocampista" },
+        { "nombre": "Umarali Rakhmonaliev", "posicion": "Centrocampista" },
+        { "nombre": "Akmal Mozgovoy", "posicion": "Centrocampista" },
+        { "nombre": "Otabek Shukurov", "posicion": "Centrocampista" },
+        { "nombre": "Jamshid Iskanderov", "posicion": "Centrocampista" },
+        { "nombre": "Azizjon Ganiev", "posicion": "Centrocampista" },
+        { "nombre": "Abbosek Fayzullaev", "posicion": "Centrocampista" },
+        { "nombre": "Jaloliddin Masharipov", "posicion": "Centrocampista" },
+        { "nombre": "Dostonbek Khamdamov", "posicion": "Centrocampista" },
+        { "nombre": "Oston Urunov", "posicion": "Centrocampista" },
+
+        { "nombre": "Azizbek Amonov", "posicion": "Delantero" },
+        { "nombre": "Igor Sergeev", "posicion": "Delantero" },
+        { "nombre": "Eldor Shomurodov", "posicion": "Delantero" }
+      ]
+    },
+    {
+      "pais": "Colombia",
+      "jugadores": [
+        { "nombre": "David Ospina", "posicion": "Portero" },
+        { "nombre": "Álvaro Montero", "posicion": "Portero" },
+        { "nombre": "Camilo Vargas", "posicion": "Portero" },
+
+        { "nombre": "Daniel Muñoz", "posicion": "Defensor" },
+        { "nombre": "Jhon Lucumí", "posicion": "Defensor" },
+        { "nombre": "Santiago Arias", "posicion": "Defensor" },
+        { "nombre": "Davinson Sánchez", "posicion": "Defensor" },
+        { "nombre": "Johan Mojica", "posicion": "Defensor" },
+        { "nombre": "Yerry Mina", "posicion": "Defensor" },
+        { "nombre": "Willer Ditta", "posicion": "Defensor" },
+        { "nombre": "Deiver Machado", "posicion": "Defensor" },
+
+        { "nombre": "Jorge Carrascal", "posicion": "Centrocampista" },
+        { "nombre": "Kevin Castaño", "posicion": "Centrocampista" },
+        { "nombre": "Gustavo Puerta", "posicion": "Centrocampista" },
+        { "nombre": "Juan Fernando Quintero", "posicion": "Centrocampista" },
+        { "nombre": "Juan Portilla", "posicion": "Centrocampista" },
+        { "nombre": "Jefferson Lerma", "posicion": "Centrocampista" },
+        { "nombre": "Richard Ríos", "posicion": "Centrocampista" },
+        { "nombre": "Jhon Arias", "posicion": "Centrocampista" },
+        { "nombre": "James Rodríguez", "posicion": "Centrocampista" },
+        { "nombre": "Jaminton Campaz", "posicion": "Centrocampista" },
+
+        { "nombre": "Luis Díaz", "posicion": "Delantero" },
+        { "nombre": "Jhon Córdoba", "posicion": "Delantero" },
+        { "nombre": "Luis Suárez", "posicion": "Delantero" },
+        { "nombre": "Andrés Gómez", "posicion": "Delantero" },
+        { "nombre": "Cucho Hernández", "posicion": "Delantero" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pais": "Chequia",
+  "jugadores": [
+    {"nombre": "Lukas Hornicek", "posicion": "Portero"},
+    {"nombre": "Jan Koutny", "posicion": "Portero"},
+    {"nombre": "Jindrich Stanek", "posicion": "Portero"},
+    {"nombre": "Vladimír Coufal", "posicion": "Defensor"},
+    {"nombre": "David Douděra", "posicion": "Defensor"},
+    {"nombre": "Tomáš Holeš", "posicion": "Defensor"},
+    {"nombre": "Robin Hranáč", "posicion": "Defensor"},
+    {"nombre": "Štěpán Chaloupek", "posicion": "Defensor"},
+    {"nombre": "David Jurásek", "posicion": "Defensor"},
+    {"nombre": "Ladislav Krejčí", "posicion": "Defensor"},
+    {"nombre": "Jaroslav Zelený", "posicion": "Defensor"},
+    {"nombre": "David Zima", "posicion": "Defensor"},
+    {"nombre": "Lukás Cerv", "posicion": "Centrocampista"},
+    {"nombre": "Vladimir Darida", "posicion": "Centrocampista"},
+    {"nombre": "Lukás Provod", "posicion": "Centrocampista"},
+    {"nombre": "Michal Sadílek", "posicion": "Centrocampista"},
+    {"nombre": "Hugo Sochůrek", "posicion": "Centrocampista"},
+    {"nombre": "Alexandr Sojka", "posicion": "Centrocampista"},
+    {"nombre": "Tomáš Souček", "posicion": "Centrocampista"},
+    {"nombre": "Adam Hložek", "posicion": "Delantero"},
+    {"nombre": "Tomáš Chorý", "posicion": "Delantero"},
+    {"nombre": "Mojmír Chytil", "posicion": "Delantero"},
+    {"nombre": "Jan Kuchta", "posicion": "Delantero"},
+    {"nombre": "Patrik Schick", "posicion": "Delantero"},
+    {"nombre": "Matej Vydra", "posicion": "Delantero"},
+    {"nombre": "Denis Višinský", "posicion": "Delantero"}
+  ]
+}

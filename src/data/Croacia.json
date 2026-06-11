@@ -1,0 +1,31 @@
+{
+  "pais": "Croacia",
+  "jugadores": [
+    {"nombre": "Dominik Livakovic", "posicion": "Portero"},
+    {"nombre": "Dominik Kotarski", "posicion": "Portero"},
+    {"nombre": "Ivor Pandur", "posicion": "Portero"},
+    {"nombre": "Josko Gvardiol", "posicion": "Defensor"},
+    {"nombre": "Duje Caleta-Car", "posicion": "Defensor"},
+    {"nombre": "Josip Sutalo", "posicion": "Defensor"},
+    {"nombre": "Josip Stanisic", "posicion": "Defensor"},
+    {"nombre": "Marin Pongracic", "posicion": "Defensor"},
+    {"nombre": "Martin Erlic", "posicion": "Defensor"},
+    {"nombre": "Luka Vuskovic", "posicion": "Defensor"},
+    {"nombre": "Luka Modric", "posicion": "Centrocampista"},
+    {"nombre": "Mateo Kovacic", "posicion": "Centrocampista"},
+    {"nombre": "Mario Pasalic", "posicion": "Centrocampista"},
+    {"nombre": "Nikola Vlasic", "posicion": "Centrocampista"},
+    {"nombre": "Luka Sucic", "posicion": "Centrocampista"},
+    {"nombre": "Martin Baturina", "posicion": "Centrocampista"},
+    {"nombre": "Kristijan Jakic", "posicion": "Centrocampista"},
+    {"nombre": "Petar Sucic", "posicion": "Centrocampista"},
+    {"nombre": "Nikola Moro", "posicion": "Centrocampista"},
+    {"nombre": "Toni Fruk", "posicion": "Centrocampista"},
+    {"nombre": "Ivan Perisic", "posicion": "Delantero"},
+    {"nombre": "Andrej Kramaric", "posicion": "Delantero"},
+    {"nombre": "Ante Budimir", "posicion": "Delantero"},
+    {"nombre": "Marco Pasalic", "posicion": "Delantero"},
+    {"nombre": "Petar Musa", "posicion": "Delantero"},
+    {"nombre": "Igor Matanovic", "posicion": "Delantero"}
+  ]
+}

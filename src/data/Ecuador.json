@@ -1,0 +1,31 @@
+{
+  "pais": "Ecuador",
+  "jugadores": [
+    {"nombre": "Hernán Galíndez", "posicion": "Portero"},
+    {"nombre": "Moisés Ramírez", "posicion": "Portero"},
+    {"nombre": "Gonzalo Valle", "posicion": "Portero"},
+    {"nombre": "Willian Pacho", "posicion": "Defensor"},
+    {"nombre": "Piero Hincapié", "posicion": "Defensor"},
+    {"nombre": "Joel Ordóñez", "posicion": "Defensor"},
+    {"nombre": "Félix Torres", "posicion": "Defensor"},
+    {"nombre": "Pervis Estupiñán", "posicion": "Defensor"},
+    {"nombre": "Yaimar Medina", "posicion": "Defensor"},
+    {"nombre": "Ángelo Preciado", "posicion": "Defensor"},
+    {"nombre": "Jackson Porozo", "posicion": "Defensor"},
+    {"nombre": "Alan Minda", "posicion": "Centrocampista"},
+    {"nombre": "Moisés Caicedo", "posicion": "Centrocampista"},
+    {"nombre": "Jordy Alcivar", "posicion": "Centrocampista"},
+    {"nombre": "Denil Castillo", "posicion": "Centrocampista"},
+    {"nombre": "John Yeboah", "posicion": "Centrocampista"},
+    {"nombre": "Alan Franco", "posicion": "Centrocampista"},
+    {"nombre": "Pedro Vite", "posicion": "Centrocampista"},
+    {"nombre": "Kendry Páez", "posicion": "Centrocampista"},
+    {"nombre": "Nilson Angulo", "posicion": "Centrocampista"},
+    {"nombre": "Gonzalo Plata", "posicion": "Centrocampista"},
+    {"nombre": "Kevin Rodríguez", "posicion": "Delantero"},
+    {"nombre": "Anthony Valencia", "posicion": "Delantero"},
+    {"nombre": "Enner Valencia", "posicion": "Delantero"},
+    {"nombre": "Jordy Caicedo", "posicion": "Delantero"},
+    {"nombre": "Jeremy Arévalo", "posicion": "Delantero"}
+  ]
+}

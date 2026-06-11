@@ -1,0 +1,31 @@
+{
+  "pais": "Canadá",
+  "jugadores": [
+    {"nombre": "Dayne St. Clair", "posicion": "Portero"},
+    {"nombre": "Maxime Crépeau", "posicion": "Portero"},
+    {"nombre": "Owen Goodman", "posicion": "Portero"},
+    {"nombre": "Moïse Bombito", "posicion": "Defensor"},
+    {"nombre": "Derek Cornelius", "posicion": "Defensor"},
+    {"nombre": "Alphonso Davies", "posicion": "Defensor"},
+    {"nombre": "Luc De Fougerolles", "posicion": "Defensor"},
+    {"nombre": "Alistair Johnston", "posicion": "Defensor"},
+    {"nombre": "Alfie Jones", "posicion": "Defensor"},
+    {"nombre": "Richie Laryea", "posicion": "Defensor"},
+    {"nombre": "Niko Sigur", "posicion": "Defensor"},
+    {"nombre": "Joel Waterman", "posicion": "Defensor"},
+    {"nombre": "Ali Ahmed", "posicion": "Centrocampista"},
+    {"nombre": "Tajon Buchanan", "posicion": "Centrocampista"},
+    {"nombre": "Mathieu Choinière", "posicion": "Centrocampista"},
+    {"nombre": "Stephen Eustáquio", "posicion": "Centrocampista"},
+    {"nombre": "Marcelo Flores", "posicion": "Centrocampista"},
+    {"nombre": "Ismaël Koné", "posicion": "Centrocampista"},
+    {"nombre": "Liam Millar", "posicion": "Centrocampista"},
+    {"nombre": "Jonathan Osorio", "posicion": "Centrocampista"},
+    {"nombre": "Nathan Saliba", "posicion": "Centrocampista"},
+    {"nombre": "Jacob Shaffelburg", "posicion": "Centrocampista"},
+    {"nombre": "Jonathan David", "posicion": "Delantero"},
+    {"nombre": "Promise David", "posicion": "Delantero"},
+    {"nombre": "Cyle Larin", "posicion": "Delantero"},
+    {"nombre": "Tani Oluwaseyi", "posicion": "Delantero"}
+  ]
+}

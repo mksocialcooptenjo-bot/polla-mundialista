@@ -1,0 +1,31 @@
+{
+  "pais": "Austria",
+  "jugadores": [
+    {"nombre": "Alexander Schlager", "posicion": "Portero"},
+    {"nombre": "Florian Wiegele", "posicion": "Portero"},
+    {"nombre": "Patrick Pentz", "posicion": "Portero"},
+    {"nombre": "David Affengruber", "posicion": "Defensor"},
+    {"nombre": "Kevin Danso", "posicion": "Defensor"},
+    {"nombre": "Stefan Posch", "posicion": "Defensor"},
+    {"nombre": "David Alaba", "posicion": "Defensor"},
+    {"nombre": "Philipp Lienhart", "posicion": "Defensor"},
+    {"nombre": "Philipp Mwene", "posicion": "Defensor"},
+    {"nombre": "Alexander Prass", "posicion": "Defensor"},
+    {"nombre": "Marco Friedl", "posicion": "Defensor"},
+    {"nombre": "Michael Svoboda", "posicion": "Defensor"},
+    {"nombre": "Xaver Schlager", "posicion": "Centrocampista"},
+    {"nombre": "Nicolas Seiwald", "posicion": "Centrocampista"},
+    {"nombre": "Marcel Sabitzer", "posicion": "Centrocampista"},
+    {"nombre": "Florian Grillitsch", "posicion": "Centrocampista"},
+    {"nombre": "Carney Chukwuemeka", "posicion": "Centrocampista"},
+    {"nombre": "Romano Schmid", "posicion": "Centrocampista"},
+    {"nombre": "Christoph Baumgartner", "posicion": "Centrocampista"},
+    {"nombre": "Konrad Laimer", "posicion": "Centrocampista"},
+    {"nombre": "Patrick Wimmer", "posicion": "Centrocampista"},
+    {"nombre": "Paul Wanner", "posicion": "Centrocampista"},
+    {"nombre": "Alessandro Schopf", "posicion": "Centrocampista"},
+    {"nombre": "Marko Arnautovic", "posicion": "Delantero"},
+    {"nombre": "Michael Gregoritsch", "posicion": "Delantero"},
+    {"nombre": "Sasa Kalajdzic", "posicion": "Delantero"}
+  ]
+}

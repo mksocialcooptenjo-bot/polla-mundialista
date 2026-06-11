@@ -1,0 +1,31 @@
+{
+  "pais": "Bosnia-Herzegovina",
+  "jugadores": [
+    {"nombre": "Nikola Vasilj", "posicion": "Portero"},
+    {"nombre": "Martin Zlomislic", "posicion": "Portero"},
+    {"nombre": "Osman Hadzikic", "posicion": "Portero"},
+    {"nombre": "Sead Kolasinac", "posicion": "Defensor"},
+    {"nombre": "Amar Dedic", "posicion": "Defensor"},
+    {"nombre": "Nihad Mujakic", "posicion": "Defensor"},
+    {"nombre": "Nikola Katic", "posicion": "Defensor"},
+    {"nombre": "Tarik Muharemovic", "posicion": "Defensor"},
+    {"nombre": "Stjepan Radeljic", "posicion": "Defensor"},
+    {"nombre": "Dennis Hadzikadunic", "posicion": "Defensor"},
+    {"nombre": "Nidal Celik", "posicion": "Defensor"},
+    {"nombre": "Amir Hadziahmetovic", "posicion": "Centrocampista"},
+    {"nombre": "Ivan Sunjic", "posicion": "Centrocampista"},
+    {"nombre": "Ivan Basic", "posicion": "Centrocampista"},
+    {"nombre": "Dzenis Burnic", "posicion": "Centrocampista"},
+    {"nombre": "Ermin Mahmic", "posicion": "Centrocampista"},
+    {"nombre": "Benjamin Tahirovic", "posicion": "Centrocampista"},
+    {"nombre": "Amar Memic", "posicion": "Centrocampista"},
+    {"nombre": "Armin Gigovic", "posicion": "Centrocampista"},
+    {"nombre": "Kerim Alajbegovic", "posicion": "Centrocampista"},
+    {"nombre": "Esmir Bajraktarevic", "posicion": "Centrocampista"},
+    {"nombre": "Ermedin Demirovic", "posicion": "Delantero"},
+    {"nombre": "Jovo Lukic", "posicion": "Delantero"},
+    {"nombre": "Samed Bazdar", "posicion": "Delantero"},
+    {"nombre": "Haris Tabakovic", "posicion": "Delantero"},
+    {"nombre": "Edin Dzeko", "posicion": "Delantero"}
+  ]
+}

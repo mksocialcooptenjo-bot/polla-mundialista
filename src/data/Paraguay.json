@@ -1,0 +1,31 @@
+{
+  "pais": "Paraguay",
+  "jugadores": [
+    {"nombre": "Roberto Fernández", "posicion": "Portero"},
+    {"nombre": "Orlando Gill", "posicion": "Portero"},
+    {"nombre": "Gastón Olveira", "posicion": "Portero"},
+    {"nombre": "Gustavo Gómez", "posicion": "Defensor"},
+    {"nombre": "Júnior Alonso", "posicion": "Defensor"},
+    {"nombre": "Fabián Balbuena", "posicion": "Defensor"},
+    {"nombre": "Omar Alderete", "posicion": "Defensor"},
+    {"nombre": "Juan Caceres", "posicion": "Defensor"},
+    {"nombre": "José Canale", "posicion": "Defensor"},
+    {"nombre": "Alexandro Maidana", "posicion": "Defensor"},
+    {"nombre": "Gustavo Velázquez", "posicion": "Defensor"},
+    {"nombre": "Miguel Almirón", "posicion": "Centrocampista"},
+    {"nombre": "Kaku", "posicion": "Centrocampista"},
+    {"nombre": "Andrés Cubas", "posicion": "Centrocampista"},
+    {"nombre": "Ramón Sosa", "posicion": "Centrocampista"},
+    {"nombre": "Diego Gómez", "posicion": "Centrocampista"},
+    {"nombre": "Damián Bobadilla", "posicion": "Centrocampista"},
+    {"nombre": "Braian Ojeda", "posicion": "Centrocampista"},
+    {"nombre": "Matías Galarza", "posicion": "Centrocampista"},
+    {"nombre": "Maurício", "posicion": "Centrocampista"},
+    {"nombre": "Antonio Sanabria", "posicion": "Delantero"},
+    {"nombre": "Julio Enciso", "posicion": "Delantero"},
+    {"nombre": "Gabriel Ávalos", "posicion": "Delantero"},
+    {"nombre": "Alex Arce", "posicion": "Delantero"},
+    {"nombre": "Isidro Pitta", "posicion": "Delantero"},
+    {"nombre": "Gustavo Caballero", "posicion": "Delantero"}
+  ]
+}

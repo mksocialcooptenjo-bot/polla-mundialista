@@ -1,0 +1,31 @@
+{
+  "pais": "Egipto",
+  "jugadores": [
+    {"nombre": "Mohamed El Shenawy", "posicion": "Portero"},
+    {"nombre": "Mostafa Shobeir", "posicion": "Portero"},
+    {"nombre": "El Mahdy Soliman", "posicion": "Portero"},
+    {"nombre": "Mohamed Alaa", "posicion": "Portero"},
+    {"nombre": "Mohamed Hany", "posicion": "Defensor"},
+    {"nombre": "Tarek Alaa", "posicion": "Defensor"},
+    {"nombre": "Hamdy Fathy", "posicion": "Defensor"},
+    {"nombre": "Ramy Rabia", "posicion": "Defensor"},
+    {"nombre": "Yasser Ibrahim", "posicion": "Defensor"},
+    {"nombre": "Hossam Abdelmaguid", "posicion": "Defensor"},
+    {"nombre": "Mohamed Abdelmonem", "posicion": "Defensor"},
+    {"nombre": "Ahmed Fatouh", "posicion": "Defensor"},
+    {"nombre": "Karim Hafez", "posicion": "Defensor"},
+    {"nombre": "Marwan Attia", "posicion": "Centrocampista"},
+    {"nombre": "Mohanad Lasheen", "posicion": "Centrocampista"},
+    {"nombre": "Nabil Emad", "posicion": "Centrocampista"},
+    {"nombre": "Mahmoud Sabre", "posicion": "Centrocampista"},
+    {"nombre": "Ahmed Zizo", "posicion": "Centrocampista"},
+    {"nombre": "Emam Ashour", "posicion": "Centrocampista"},
+    {"nombre": "Mostafa Ziko", "posicion": "Centrocampista"},
+    {"nombre": "Mahmoud Trezeguet", "posicion": "Centrocampista"},
+    {"nombre": "Ibrahim Adel", "posicion": "Centrocampista"},
+    {"nombre": "Haissem Hassan", "posicion": "Centrocampista"},
+    {"nombre": "Omar Marmoush", "posicion": "Delantero"},
+    {"nombre": "Mohamed Salah", "posicion": "Delantero"},
+    {"nombre": "Hamza Abdelkarim", "posicion": "Delantero"}
+  ]
+}

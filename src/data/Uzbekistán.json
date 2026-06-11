@@ -1,0 +1,31 @@
+{
+  "pais": "Uzbekistán",
+  "jugadores": [
+    {"nombre": "Utkir Yusupov", "posicion": "Portero"},
+    {"nombre": "Botirali Ergashev", "posicion": "Portero"},
+    {"nombre": "Abduvokhid Nematov", "posicion": "Portero"},
+    {"nombre": "Avazbek Ulmasaliev", "posicion": "Defensor"},
+    {"nombre": "Jakhongir Urozov", "posicion": "Defensor"},
+    {"nombre": "Rustamjon Ashurmatov", "posicion": "Defensor"},
+    {"nombre": "Umarbek Eshmurodov", "posicion": "Defensor"},
+    {"nombre": "Abdukodir Khusanov", "posicion": "Defensor"},
+    {"nombre": "Abdulla Abdullaev", "posicion": "Defensor"},
+    {"nombre": "Farrukh Sayfiev", "posicion": "Defensor"},
+    {"nombre": "Khojiakbar Alijonov", "posicion": "Defensor"},
+    {"nombre": "Sherzod Nasrullaev", "posicion": "Defensor"},
+    {"nombre": "Behruz Karimov", "posicion": "Defensor"},
+    {"nombre": "Sherzod Esanov", "posicion": "Centrocampista"},
+    {"nombre": "Umarali Rakhmonaliev", "posicion": "Centrocampista"},
+    {"nombre": "Akmal Mozgovoy", "posicion": "Centrocampista"},
+    {"nombre": "Otabek Shukurov", "posicion": "Centrocampista"},
+    {"nombre": "Jamshid Iskanderov", "posicion": "Centrocampista"},
+    {"nombre": "Azizjon Ganiev", "posicion": "Centrocampista"},
+    {"nombre": "Abbosek Fayzullaev", "posicion": "Centrocampista"},
+    {"nombre": "Jaloliddin Masharipov", "posicion": "Centrocampista"},
+    {"nombre": "Dostonbek Khamdamov", "posicion": "Centrocampista"},
+    {"nombre": "Oston Urunov", "posicion": "Centrocampista"},
+    {"nombre": "Azizbek Amonov", "posicion": "Delantero"},
+    {"nombre": "Igor Sergeev", "posicion": "Delantero"},
+    {"nombre": "Eldor Shomurodov", "posicion": "Delantero"}
+  ]
+}

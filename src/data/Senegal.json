@@ -1,0 +1,31 @@
+{
+  "pais": "Senegal",
+  "jugadores": [
+    {"nombre": "Édouard Mendy", "posicion": "Portero"},
+    {"nombre": "Mory Diaw", "posicion": "Portero"},
+    {"nombre": "Yehvann Diouf", "posicion": "Portero"},
+    {"nombre": "Krépin Diatta", "posicion": "Defensor"},
+    {"nombre": "Antoine Mendy", "posicion": "Defensor"},
+    {"nombre": "Kalidou Koulibaly", "posicion": "Defensor"},
+    {"nombre": "El Hadji Malick Diouf", "posicion": "Defensor"},
+    {"nombre": "Mamadou Sarr", "posicion": "Defensor"},
+    {"nombre": "Moussa Niakhaté", "posicion": "Defensor"},
+    {"nombre": "Abdoulaye Seck", "posicion": "Defensor"},
+    {"nombre": "Ismail Jakobs", "posicion": "Defensor"},
+    {"nombre": "Idrissa Gana Gueye", "posicion": "Centrocampista"},
+    {"nombre": "Pape Gueye", "posicion": "Centrocampista"},
+    {"nombre": "Lamine Camara", "posicion": "Centrocampista"},
+    {"nombre": "Habib Diarra", "posicion": "Centrocampista"},
+    {"nombre": "Pathé Ciss", "posicion": "Centrocampista"},
+    {"nombre": "Pape Matar Sarr", "posicion": "Centrocampista"},
+    {"nombre": "Bara Sapoko Ndiaye", "posicion": "Centrocampista"},
+    {"nombre": "Sadio Mané", "posicion": "Delantero"},
+    {"nombre": "Ismaïla Sarr", "posicion": "Delantero"},
+    {"nombre": "Iliman Ndiaye", "posicion": "Delantero"},
+    {"nombre": "Assane Diao", "posicion": "Delantero"},
+    {"nombre": "Ibrahim Mbaye", "posicion": "Delantero"},
+    {"nombre": "Nicolas Jackson", "posicion": "Delantero"},
+    {"nombre": "Bamba Dieng", "posicion": "Delantero"},
+    {"nombre": "Cherif Ndiaye", "posicion": "Delantero"}
+  ]
+}

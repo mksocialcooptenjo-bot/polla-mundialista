@@ -1,0 +1,31 @@
+{
+  "pais": "Brasil",
+  "jugadores": [
+    {"nombre": "Alisson", "posicion": "Portero"},
+    {"nombre": "Éderson", "posicion": "Portero"},
+    {"nombre": "Weverton", "posicion": "Portero"},
+    {"nombre": "Alex Sandro", "posicion": "Defensor"},
+    {"nombre": "Bremer", "posicion": "Defensor"},
+    {"nombre": "Danilo", "posicion": "Defensor"},
+    {"nombre": "Douglas Santos", "posicion": "Defensor"},
+    {"nombre": "Gabriel Magalhães", "posicion": "Defensor"},
+    {"nombre": "Léo Pereira", "posicion": "Defensor"},
+    {"nombre": "Marquinhos", "posicion": "Defensor"},
+    {"nombre": "Roger Ibañez", "posicion": "Defensor"},
+    {"nombre": "Wesley", "posicion": "Defensor"},
+    {"nombre": "Bruno Guimarães", "posicion": "Centrocampista"},
+    {"nombre": "Casemiro", "posicion": "Centrocampista"},
+    {"nombre": "Danilo Santos", "posicion": "Centrocampista"},
+    {"nombre": "Fabinho", "posicion": "Centrocampista"},
+    {"nombre": "Lucas Paquetá", "posicion": "Centrocampista"},
+    {"nombre": "Endrick", "posicion": "Delantero"},
+    {"nombre": "Gabriel Martinelli", "posicion": "Delantero"},
+    {"nombre": "Igor Thiago", "posicion": "Delantero"},
+    {"nombre": "Luiz Henrique", "posicion": "Delantero"},
+    {"nombre": "Matheus Cunha", "posicion": "Delantero"},
+    {"nombre": "Neymar", "posicion": "Delantero"},
+    {"nombre": "Raphinha", "posicion": "Delantero"},
+    {"nombre": "Rayan", "posicion": "Delantero"},
+    {"nombre": "Vinícius Júnior", "posicion": "Delantero"}
+  ]
+}

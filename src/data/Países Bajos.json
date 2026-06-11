@@ -1,0 +1,31 @@
+{
+  "pais": "Países Bajos",
+  "jugadores": [
+    {"nombre": "Mark Flekken", "posicion": "Portero"},
+    {"nombre": "Robin Roefs", "posicion": "Portero"},
+    {"nombre": "Bart Verbruggen", "posicion": "Portero"},
+    {"nombre": "Nathan Aké", "posicion": "Defensor"},
+    {"nombre": "Denzel Dumfries", "posicion": "Defensor"},
+    {"nombre": "Jorrel Hato", "posicion": "Defensor"},
+    {"nombre": "Jurriën Timber", "posicion": "Defensor"},
+    {"nombre": "Jan Paul van Hecke", "posicion": "Defensor"},
+    {"nombre": "Micky van de Ven", "posicion": "Defensor"},
+    {"nombre": "Virgil van Dijk", "posicion": "Defensor"},
+    {"nombre": "Frenkie de Jong", "posicion": "Centrocampista"},
+    {"nombre": "Marten de Roon", "posicion": "Centrocampista"},
+    {"nombre": "Ryan Gravenberch", "posicion": "Centrocampista"},
+    {"nombre": "Teun Koopmeiners", "posicion": "Centrocampista"},
+    {"nombre": "Tijjani Reijnders", "posicion": "Centrocampista"},
+    {"nombre": "Guus Til", "posicion": "Centrocampista"},
+    {"nombre": "Quinten Timber", "posicion": "Centrocampista"},
+    {"nombre": "Mats Wieffer", "posicion": "Centrocampista"},
+    {"nombre": "Brian Brobbey", "posicion": "Delantero"},
+    {"nombre": "Memphis Depay", "posicion": "Delantero"},
+    {"nombre": "Cody Gakpo", "posicion": "Delantero"},
+    {"nombre": "Justin Kluivert", "posicion": "Delantero"},
+    {"nombre": "Noa Lang", "posicion": "Delantero"},
+    {"nombre": "Donyell Malen", "posicion": "Delantero"},
+    {"nombre": "Crysencio Summerville", "posicion": "Delantero"},
+    {"nombre": "Wout Weghorst", "posicion": "Delantero"}
+  ]
+}

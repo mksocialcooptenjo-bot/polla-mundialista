@@ -1,0 +1,31 @@
+{
+  "pais": "Australia",
+  "jugadores": [
+    {"nombre": "Mathew Ryan", "posicion": "Portero"},
+    {"nombre": "Paul Izzo", "posicion": "Portero"},
+    {"nombre": "Patrick Beach", "posicion": "Portero"},
+    {"nombre": "Jordan Bos", "posicion": "Defensor"},
+    {"nombre": "Aziz Behich", "posicion": "Defensor"},
+    {"nombre": "Harry Souttar", "posicion": "Defensor"},
+    {"nombre": "Alessandro Circati", "posicion": "Defensor"},
+    {"nombre": "Lucas Herrington", "posicion": "Defensor"},
+    {"nombre": "Cameron Burgess", "posicion": "Defensor"},
+    {"nombre": "Kai Trewin", "posicion": "Defensor"},
+    {"nombre": "Milos Degenek", "posicion": "Defensor"},
+    {"nombre": "Jason Geria", "posicion": "Defensor"},
+    {"nombre": "Jacob Italiano", "posicion": "Defensor"},
+    {"nombre": "Jackson Irvine", "posicion": "Centrocampista"},
+    {"nombre": "Aiden O'Neill", "posicion": "Centrocampista"},
+    {"nombre": "Paul Okon Jr", "posicion": "Centrocampista"},
+    {"nombre": "Cameron Devlin", "posicion": "Centrocampista"},
+    {"nombre": "Connor Metcalfe", "posicion": "Delantero"},
+    {"nombre": "Mathew Leckie", "posicion": "Delantero"},
+    {"nombre": "Nishan Velupillay", "posicion": "Delantero"},
+    {"nombre": "Cristian Volpato", "posicion": "Delantero"},
+    {"nombre": "Nestory Irankunda", "posicion": "Delantero"},
+    {"nombre": "Awer Mabil", "posicion": "Delantero"},
+    {"nombre": "Ajdin Hrustic", "posicion": "Delantero"},
+    {"nombre": "Mohamed Toure", "posicion": "Delantero"},
+    {"nombre": "Tete Yengi", "posicion": "Delantero"}
+  ]
+}

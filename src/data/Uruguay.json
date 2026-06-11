@@ -1,0 +1,31 @@
+{
+  "pais": "Uruguay",
+  "jugadores": [
+    {"nombre": "Fernando Muslera", "posicion": "Portero"},
+    {"nombre": "Sergio Rochet", "posicion": "Portero"},
+    {"nombre": "Santiago Mele", "posicion": "Portero"},
+    {"nombre": "Ronald Araújo", "posicion": "Defensor"},
+    {"nombre": "José María Giménez", "posicion": "Defensor"},
+    {"nombre": "Santiago Bueno", "posicion": "Defensor"},
+    {"nombre": "Sebastián Cáceres", "posicion": "Defensor"},
+    {"nombre": "Mathías Olivera", "posicion": "Defensor"},
+    {"nombre": "Guillermo Varela", "posicion": "Defensor"},
+    {"nombre": "Matías Viña", "posicion": "Defensor"},
+    {"nombre": "Joaquín Piquerez", "posicion": "Defensor"},
+    {"nombre": "Juan Manuel Sanabria", "posicion": "Defensor"},
+    {"nombre": "Federico Valverde", "posicion": "Centrocampista"},
+    {"nombre": "Rodrigo Bentancur", "posicion": "Centrocampista"},
+    {"nombre": "Manuel Ugarte", "posicion": "Centrocampista"},
+    {"nombre": "Emiliano Martínez", "posicion": "Centrocampista"},
+    {"nombre": "Rodrigo Zalazar", "posicion": "Centrocampista"},
+    {"nombre": "Giorgian De Arrascaeta", "posicion": "Centrocampista"},
+    {"nombre": "Nicolás De La Cruz", "posicion": "Centrocampista"},
+    {"nombre": "Agustín Canobbio", "posicion": "Centrocampista"},
+    {"nombre": "Maximiliano Araújo", "posicion": "Centrocampista"},
+    {"nombre": "Brian Rodríguez", "posicion": "Centrocampista"},
+    {"nombre": "Facundo Pellistri", "posicion": "Centrocampista"},
+    {"nombre": "Darwin Núñez", "posicion": "Delantero"},
+    {"nombre": "Federico Viñas", "posicion": "Delantero"},
+    {"nombre": "Rodrigo Aguirre", "posicion": "Delantero"}
+  ]
+}

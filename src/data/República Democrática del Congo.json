@@ -1,0 +1,31 @@
+{
+  "pais": "República Democrática del Congo",
+  "jugadores": [
+    {"nombre": "Lionel Mpasi", "posicion": "Portero"},
+    {"nombre": "Timothy Fayulu", "posicion": "Portero"},
+    {"nombre": "Matthieu Epolo", "posicion": "Portero"},
+    {"nombre": "Chancel Mbemba", "posicion": "Defensor"},
+    {"nombre": "Axel Tuanzebe", "posicion": "Defensor"},
+    {"nombre": "Arthur Masuaku", "posicion": "Defensor"},
+    {"nombre": "Gedeon Kalulu", "posicion": "Defensor"},
+    {"nombre": "Joris Kayembe", "posicion": "Defensor"},
+    {"nombre": "Aaron Wan-Bissaka", "posicion": "Defensor"},
+    {"nombre": "Aaron Tshibola", "posicion": "Defensor"},
+    {"nombre": "Steve Kapuadi", "posicion": "Defensor"},
+    {"nombre": "Dylan Batubinsika", "posicion": "Defensor"},
+    {"nombre": "Noah Sadiki", "posicion": "Centrocampista"},
+    {"nombre": "Charles Pickel", "posicion": "Centrocampista"},
+    {"nombre": "Edo Kayembe", "posicion": "Centrocampista"},
+    {"nombre": "Samuel Moutoussamy", "posicion": "Centrocampista"},
+    {"nombre": "Ngal'ayel Mukau", "posicion": "Centrocampista"},
+    {"nombre": "Nathanaël Mbuku", "posicion": "Centrocampista"},
+    {"nombre": "Meschak Elia", "posicion": "Centrocampista"},
+    {"nombre": "Brian Cipenga", "posicion": "Centrocampista"},
+    {"nombre": "Gaël Kakuta", "posicion": "Centrocampista"},
+    {"nombre": "Théo Bongonda", "posicion": "Centrocampista"},
+    {"nombre": "Simon Banza", "posicion": "Delantero"},
+    {"nombre": "Yoane Wissa", "posicion": "Delantero"},
+    {"nombre": "Fiston Mayele", "posicion": "Delantero"},
+    {"nombre": "Cédric Bakambu", "posicion": "Delantero"}
+  ]
+}
