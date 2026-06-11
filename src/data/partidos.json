@@ -4,14 +4,14 @@
       "fecha": "Jueves, 11 de junio 2026",
       "partidos": [
         {
-          "hora": "15:00",
+          "hora": "13:00",
           "equipo1": "México",
           "equipo2": "Sudáfrica",
           "grupo": "A",
           "estadio": "Estadio Ciudad de México"
         },
         {
-          "hora": "22:00",
+          "hora": "21:00",
           "equipo1": "Corea del Sur",
           "equipo2": "Chequia",
           "grupo": "A",

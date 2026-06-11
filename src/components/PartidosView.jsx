@@ -55,7 +55,7 @@ const codigosBanderas = {
   "Croacia": "HR",
   "Dinamarca": "DK",
   "Chile": "CL",
-  "Perú": "PE",
+  "Perü": "PE",
   "Panamá": "PA",
   "Costa Rica": "CR",
   "Cabo Verde": "CV",
@@ -75,7 +75,7 @@ const codigosBanderas = {
   "Por Clasificar": "DEFAULT" 
 };
 
-function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por props (o puedes cambiarlo por tu contexto de Auth)
+function PartidosView({ usuarioGlobal }) {
   const [fechasCalendario, setFechasCalendario] = useState([]);
   const [jugadoresCargados, setJugadoresCargados] = useState({});
   const [pronosticos, setPronosticos] = useState({});
@@ -87,6 +87,53 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
     if (codigo === "GB-SCT") return "https://flagcdn.com/64x48/gb-sct.png";
     if (codigo === "GB-ENG") return "https://flagcdn.com/64x48/gb-eng.png";
     return `https://flagsapi.com/${codigo}/flat/64.png`;
+  };
+
+  // =========================================================
+  // MOTOR DE CONTROL HORARIO INTERNACIONAL (HORA COLOMBIA)
+  // =========================================================
+  const comprobarPartidoBloqueado = (fechaTexto, horaTexto) => {
+    try {
+      const meses = {
+        jan: 0, ene: 0, feb: 1, mar: 2, apr: 3, abr: 3, may: 4, jun: 5, 
+        jul: 6, aug: 7, ago: 7, sep: 8, oct: 9, nov: 10, dec: 11, dic: 11
+      };
+
+      const textoMinuscula = fechaTexto.toLowerCase();
+      const diaMatch = textoMinuscula.match(/\d+/);
+      if (!diaMatch) return false;
+      const dia = parseInt(diaMatch[0], 10);
+
+      let mesIndex = 5; // Por defecto Junio para el Fixture del Mundial 2026
+      for (const clave in meses) {
+        if (textoMinuscula.includes(clave)) {
+          mesIndex = meses[clave];
+          break;
+        }
+      }
+
+      const [horas, minutos] = horaTexto.split(':').map(num => parseInt(num, 10));
+
+      // 1. Construir la fecha del partido asumiendo que los datos ingresados están en hora local de Colombia
+      // Creamos un string en formato ISO simulado que especifica el desfase de Colombia (UTC-5)
+      const mesFormateado = String(mesIndex + 1).padStart(2, '0');
+      const diaFormateado = String(dia).padStart(2, '0');
+      const horaFormateada = String(horas).padStart(2, '0');
+      const minFormateado = String(minutos).padStart(2, '0');
+      
+      // ISO String con el Timezone de Colombia (-05:00)
+      const stringFechaColombia = `2026-${mesFormateado}-${diaFormateado}T${horaFormateada}:${minFormateado}:00-05:00`;
+      const fechaPartidoObjetivo = new Date(stringFechaColombia);
+
+      // 2. Obtener el momento exacto actual del sistema
+      const momentoActual = new Date();
+
+      // Si el reloj actual superó o igualó el inicio programado, retorna true (Bloqueado)
+      return momentoActual >= fechaPartidoObjetivo;
+    } catch (error) {
+      console.error("Error validando el control horario de bloqueos:", error);
+      return false; 
+    }
   };
 
   const cargarPartidosDesdeFirebase = async () => {
@@ -103,7 +150,7 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
       const datosFechas = [];
       querySnapshot.forEach((doc) => {
         if (doc.id.startsWith("fecha_")) {
-          datosFechas.push({ orden: parseInt(doc.id.split("_")[1]), ...doc.data() });
+          datosFechas.push({ docId: doc.id, orden: parseInt(doc.id.split("_")[1]), ...doc.data() });
         }
       });
 
@@ -116,7 +163,6 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
     }
   };
 
-  // Carga previa de los pronósticos ya existentes del usuario para que no aparezcan vacíos al refrescar
   const cargarPronosticosGuardados = async () => {
     const emailUsuario = usuarioGlobal?.email?.toLowerCase().trim();
     if (!emailUsuario) return;
@@ -127,7 +173,6 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
       querySnapshot.forEach((doc) => {
         pronoCargados[doc.id] = doc.data();
         
-        // Carga automática de listas de jugadores si el pronóstico cargado tiene goles asignados
         if (doc.data().goles1 > 0) {
           const partidoInfo = doc.id.split("_vs_");
           if(partidoInfo[0]) cargarJugadoresDeSeleccion(partidoInfo[0]);
@@ -247,19 +292,19 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
     });
   };
 
-  // ==========================================
-  // LÓGICA DE GUARDADO FIRESTORE CORREGIDA
-  // ==========================================
-  const manejarGuardarVoto = async (partidoId, pronoActual) => {
-    console.log("Evento Guardar activado para:", partidoId, pronoActual);
-    
+  const manejarGuardarVoto = async (partidoId, pronoActual, fechaTexto, horaTexto) => {
+    // Doble candado de validación por seguridad del lado del controlador
+    if (comprobarPartidoBloqueado(fechaTexto, horaTexto)) {
+      alert("El tiempo límite para registrar pronósticos sobre este juego ya ha concluido.");
+      return;
+    }
+
     const emailUsuario = usuarioGlobal?.email?.toLowerCase().trim();
     if (!emailUsuario) {
       alert("Debes iniciar sesión para registrar tus pronósticos.");
       return;
     }
 
-    // Validar si puso goles pero dejó campos de anotadores en blanco
     const faltanAnotadores1 = pronoActual.anotadores1?.some(j => j === "");
     const faltanAnotadores2 = pronoActual.anotadores2?.some(j => j === "");
 
@@ -283,7 +328,7 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
       await setDoc(documentoVotoRef, estructuraVoto, { merge: true });
       alert("⚽ ¡Pronóstico registrado con éxito!");
     } catch (e) {
-      console.error("Error crítico de escritura en subcolección:", e);
+      console.error("Error crítico de escritura:", e);
       alert("Error de conexión al guardar el voto.");
     } finally {
       setCargando(false);
@@ -300,7 +345,7 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
             Calendario y Pronósticos 2026
           </h2>
           <p className="text-slate-400 text-sm mt-1">
-            Los partidos aparecen exactamente en el orden cronológico del fixture oficial.
+            Los partidos se bloquean automáticamente una vez alcanzada la hora oficial colombiana de inicio.
           </p>
         </div>
         <button 
@@ -313,7 +358,7 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
 
       {cargando ? (
         <div className="text-center py-12 text-slate-400 font-medium animate-pulse">
-          ⚽ Procesando y sincronizando con base de datos...
+          ⚽ Procesando información...
         </div>
       ) : fechasCalendario.length === 0 ? (
         <div className="bg-slate-900/50 border border-slate-800 p-8 rounded-2xl text-center text-slate-400">
@@ -336,12 +381,17 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                 const jugadoresLocal = jugadoresCargados[partido.equipo1] || [];
                 const jugadoresVisitante = jugadoresCargados[partido.equipo2] || [];
 
+                // 🔥 EJECUCIÓN DEL FILTRO DE SEGURIDAD TEMPORAL HORARIO
+                const estaBloqueado = comprobarPartidoBloqueado(grupoFecha.fecha, partido.hora) || partido.estado === "finalizado" || partido.estado === "en_vivo";
+
                 return (
                   <div key={partido.id} className="bg-slate-900 border border-slate-800/60 rounded-2xl p-6 shadow-xl hover:border-slate-700/80 transition duration-300 flex flex-col justify-between">
                     
                     <div className="flex justify-between items-center text-xs text-slate-400 mb-4 bg-slate-950/40 p-2 rounded-xl border border-slate-800/40">
                       <span className="font-bold tracking-wider text-slate-300">GRUPO {partido.grupo}</span>
-                      <span>🕒 {partido.hora} | 📍 {partido.estadio}</span>
+                      <span className="flex items-center gap-1.5">
+                        🕒 {partido.hora} COT | 📍 {partido.estadio}
+                      </span>
                     </div>
 
                     <div className="grid grid-cols-3 items-center gap-2 my-2">
@@ -352,8 +402,9 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                         <input 
                           type="number" min="0"
                           value={prono.goles1}
+                          disabled={estaBloqueado}
                           onChange={(e) => handleGolesChange(partido.id, 'equipo1', e.target.value, partido.equipo1, partido.equipo2)}
-                          className="w-16 h-12 bg-slate-950 border border-slate-700 text-center font-black text-xl rounded-xl focus:border-emerald-500 focus:outline-none transition text-white"
+                          className={`w-16 h-12 bg-slate-950 border text-center font-black text-xl rounded-xl focus:border-emerald-500 focus:outline-none transition text-white ${estaBloqueado ? 'opacity-40 cursor-not-allowed border-slate-800' : 'border-slate-700'}`}
                         />
                       </div>
 
@@ -366,8 +417,9 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                         <input 
                           type="number" min="0"
                           value={prono.goles2}
+                          disabled={estaBloqueado}
                           onChange={(e) => handleGolesChange(partido.id, 'equipo2', e.target.value, partido.equipo1, partido.equipo2)}
-                          className="w-16 h-12 bg-slate-950 border border-slate-700 text-center font-black text-xl rounded-xl focus:border-emerald-500 focus:outline-none transition text-white"
+                          className={`w-16 h-12 bg-slate-950 border text-center font-black text-xl rounded-xl focus:border-emerald-500 focus:outline-none transition text-white ${estaBloqueado ? 'opacity-40 cursor-not-allowed border-slate-800' : 'border-slate-700'}`}
                         />
                       </div>
                     </div>
@@ -381,8 +433,9 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                             {(prono.anotadores1 || []).map((j, i) => (
                               <select
                                 key={i} value={j}
+                                disabled={estaBloqueado}
                                 onChange={(e) => handleAnotadorChange(partido.id, 'equipo1', i, e.target.value)}
-                                className="w-full bg-slate-900 border border-slate-700 text-[11px] font-medium rounded-lg p-2 focus:border-emerald-500 focus:outline-none text-slate-300"
+                                className={`w-full bg-slate-900 border text-[11px] font-medium rounded-lg p-2 focus:border-emerald-500 focus:outline-none text-slate-300 ${estaBloqueado ? 'opacity-40 cursor-not-allowed' : 'border-slate-700'}`}
                               >
                                 <option value="">Gol {i + 1} ({partido.equipo1})</option>
                                 {jugadoresLocal.map((jug, k) => (
@@ -395,8 +448,9 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                             {(prono.anotadores2 || []).map((j, i) => (
                               <select
                                 key={i} value={j}
+                                disabled={estaBloqueado}
                                 onChange={(e) => handleAnotadorChange(partido.id, 'equipo2', i, e.target.value)}
-                                className="w-full bg-slate-900 border border-slate-700 text-[11px] font-medium rounded-lg p-2 focus:border-emerald-500 focus:outline-none text-slate-300"
+                                className={`w-full bg-slate-900 border text-[11px] font-medium rounded-lg p-2 focus:border-emerald-500 focus:outline-none text-slate-300 ${estaBloqueado ? 'opacity-40 cursor-not-allowed' : 'border-slate-700'}`}
                               >
                                 <option value="">Gol {i + 1} ({partido.equipo2})</option>
                                 {jugadoresVisitante.map((jug, k) => (
@@ -409,13 +463,23 @@ function PartidosView({ usuarioGlobal }) { // Recibimos el usuario activo por pr
                       </div>
                     )}
 
-                    <div className="mt-4 pt-2 flex justify-end">
+                    <div className="mt-4 pt-2 flex justify-between items-center">
+                      {estaBloqueado && (
+                        <span className="text-[10px] bg-red-500/10 border border-red-500/20 text-red-400 font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                          🔒 Pronósticos Cerrados
+                        </span>
+                      )}
                       <button 
                         type="button"
-                        onClick={() => manejarGuardarVoto(partido.id, prono)}
-                        className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-black px-4 py-2 rounded-xl transition shadow-md active:scale-95"
+                        disabled={estaBloqueado}
+                        onClick={() => manejarGuardarVoto(partido.id, prono, grupoFecha.fecha, partido.hora)}
+                        className={`text-xs font-black px-4 py-2 rounded-xl transition shadow-md ${
+                          estaBloqueado 
+                            ? 'bg-slate-800 text-slate-500 cursor-not-allowed ml-auto' 
+                            : 'bg-emerald-500 hover:bg-emerald-400 text-slate-950 active:scale-95'
+                        }`}
                       >
-                        Guardar Voto
+                        {estaBloqueado ? "Bloqueado" : "Guardar Voto"}
                       </button>
                     </div>
 
